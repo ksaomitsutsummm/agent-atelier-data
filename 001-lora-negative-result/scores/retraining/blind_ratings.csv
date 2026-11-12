@@ -1,0 +1,61 @@
+label,adherence,anatomy,quality,notes
+R01A,2,2,2,Clear panda among bamboo; body partly hidden by leaves
+R01B,1,1,1,Two pandas instead of one; cropped second face and hand-like gripping digits
+R01C,2,2,2,Coherent panda face and partly occluded body among vegetation
+R02A,2,1,2,Panda among trees and bamboo; long hand-like gripping fingers
+R02B,2,1,2,Bamboo present; pale gripping fingers look hand-like
+R02C,2,1,2,Bamboo present; hand-like grip and long vertical torso
+R03A,2,1,2,Resting at tree branch; pale hand-like curled digits
+R03B,2,2,2,"Resting in tree junction; limbs mostly occluded, no clear defect"
+R03C,2,1,2,Resting at branch; long pale hand-like digits
+R04A,2,2,2,Clear resting pose on horizontal branch
+R04B,2,1,2,Static pose at tree junction; hand-like gripping digits
+R04C,2,1,2,Static pose at branch junction; hand-like grip
+R05A,2,2,2,Detailed coherent face close-up
+R05B,1,0,0,Merged duplicate faces with extra eyes and noses; severe facial structure failure
+R05C,1,2,2,Coherent face but wider tree-and-body composition rather than face close-up
+R06A,1,2,2,Panda on branch with much of body visible; not a face close-up
+R06B,2,2,2,Detailed coherent face close-up
+R06C,2,2,1,Detailed face but one side and an eye cut at left edge
+R07A,1,1,2,Snow present but clinging to tree rather than walking; hand-like grip
+R07B,1,2,2,Snow present but resting in tree rather than walking
+R07C,1,0,1,Two overlapping heads/bodies rather than one walking animal; left face clipped
+R08A,2,1,2,Walking in snow; hand-like crossed front paws
+R08B,2,1,2,Walking in snow; elongated hand-like front digits
+R08C,1,2,2,Snowy branch present; perched/resting rather than walking
+R09A,1,1,2,Watercolor but blue background does not clearly establish a river; arched bulky torso
+R09B,1,1,2,Watercolor but blue background does not clearly establish a river; arched torso
+R09C,2,1,2,Watercolor river with banks visible; exaggerated curved body
+R10A,2,1,2,Watercolor and river present; oversized rounded torso
+R10B,2,2,2,Watercolor panda on branch over river; coherent stylized pose
+R10C,1,1,2,Two heads and overlapping bodies; no clear river
+R11A,1,1,1,Two pandas with one cropped face; sand but sunset unclear; body overlap
+R11B,1,2,2,"Sand behind tree; no clear sunset, coherent visible panda"
+R11C,1,1,2,Sand behind tree; sunset unclear and hand-like gripping digits
+R12A,1,1,2,Sand present but sunset unclear; hand-like front paw
+R12B,2,1,2,Sand in warm sunset light; crossed hand-like front paws
+R12C,1,1,2,Sand present but sunset unclear; elongated flat hand-like front paws
+R13A,2,2,2,Golden retriever in garden; coherent visible body
+R13B,2,2,2,Golden retriever in garden; coherent visible body
+R13C,2,2,2,Golden retriever in garden; coherent visible body
+R14A,2,2,2,Golden retriever lying in garden; coherent visible body
+R14B,2,2,2,Golden retriever lying in garden; coherent visible body
+R14C,2,2,2,Golden retriever lying in garden; coherent visible body
+R15A,2,2,2,Mountains and lake; anatomy not applicable
+R15B,2,2,2,Mountains and lake; anatomy not applicable
+R15C,2,2,2,Mountains and lake; anatomy not applicable
+R16A,2,2,2,Mountains and lake; anatomy not applicable
+R16B,2,2,2,Mountains and lake; anatomy not applicable
+R16C,2,2,2,Mountains and lake; anatomy not applicable
+R17A,1,1,1,Two pandas instead of one; left face cropped; hand-like gripping digits
+R17B,2,2,2,Single coherent panda among bamboo; partly occluded body
+R17C,2,1,1,Bamboo and panda; outstretched hand-like limb and text-like bottom-right mark
+R18A,2,1,2,Panda in bamboo; long hand-like grip
+R18B,2,1,2,Panda in bamboo; long hand-like gripping digits
+R18C,2,1,2,Panda in bamboo; hand-like grip and unexplained paw at lower-right edge
+R19A,1,2,1,Standing rather than clear walking; face cut by left edge
+R19B,1,1,2,Clinging to tree rather than walking; hand-like grip
+R19C,1,2,2,Resting in snowy tree rather than walking
+R20A,2,1,2,Walking in snow; hand-like overlapping front paws
+R20B,2,1,2,Walking in snow; hand-like overlapping front paws
+R20C,2,2,2,Moving along snow-covered branch; coherent visible legs

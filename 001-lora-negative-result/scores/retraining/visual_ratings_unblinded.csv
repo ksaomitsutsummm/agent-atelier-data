@@ -1,0 +1,61 @@
+label,adherence,anatomy,quality,notes,id,prompt_id,seed,condition,group,total
+R01A,2,2,2,Clear panda among bamboo; body partly hidden by leaves,bamboo__13579__current,bamboo,13579,current,near_training,6
+R01B,1,1,1,Two pandas instead of one; cropped second face and hand-like gripping digits,bamboo__13579__base,bamboo,13579,base,near_training,3
+R01C,2,2,2,Coherent panda face and partly occluded body among vegetation,bamboo__13579__retrained,bamboo,13579,retrained,near_training,6
+R02A,2,1,2,Panda among trees and bamboo; long hand-like gripping fingers,bamboo__24680__retrained,bamboo,24680,retrained,near_training,5
+R02B,2,1,2,Bamboo present; pale gripping fingers look hand-like,bamboo__24680__base,bamboo,24680,base,near_training,5
+R02C,2,1,2,Bamboo present; hand-like grip and long vertical torso,bamboo__24680__current,bamboo,24680,current,near_training,5
+R03A,2,1,2,Resting at tree branch; pale hand-like curled digits,branch__13579__base,branch,13579,base,near_training,5
+R03B,2,2,2,"Resting in tree junction; limbs mostly occluded, no clear defect",branch__13579__retrained,branch,13579,retrained,near_training,6
+R03C,2,1,2,Resting at branch; long pale hand-like digits,branch__13579__current,branch,13579,current,near_training,5
+R04A,2,2,2,Clear resting pose on horizontal branch,branch__24680__base,branch,24680,base,near_training,6
+R04B,2,1,2,Static pose at tree junction; hand-like gripping digits,branch__24680__retrained,branch,24680,retrained,near_training,5
+R04C,2,1,2,Static pose at branch junction; hand-like grip,branch__24680__current,branch,24680,current,near_training,5
+R05A,2,2,2,Detailed coherent face close-up,portrait__13579__base,portrait,13579,base,near_training,6
+R05B,1,0,0,Merged duplicate faces with extra eyes and noses; severe facial structure failure,portrait__13579__current,portrait,13579,current,near_training,1
+R05C,1,2,2,Coherent face but wider tree-and-body composition rather than face close-up,portrait__13579__retrained,portrait,13579,retrained,near_training,5
+R06A,1,2,2,Panda on branch with much of body visible; not a face close-up,portrait__24680__retrained,portrait,24680,retrained,near_training,5
+R06B,2,2,2,Detailed coherent face close-up,portrait__24680__base,portrait,24680,base,near_training,6
+R06C,2,2,1,Detailed face but one side and an eye cut at left edge,portrait__24680__current,portrait,24680,current,near_training,5
+R07A,1,1,2,Snow present but clinging to tree rather than walking; hand-like grip,snow__13579__current,snow,13579,current,generalization,4
+R07B,1,2,2,Snow present but resting in tree rather than walking,snow__13579__retrained,snow,13579,retrained,generalization,5
+R07C,1,0,1,Two overlapping heads/bodies rather than one walking animal; left face clipped,snow__13579__base,snow,13579,base,generalization,2
+R08A,2,1,2,Walking in snow; hand-like crossed front paws,snow__24680__current,snow,24680,current,generalization,5
+R08B,2,1,2,Walking in snow; elongated hand-like front digits,snow__24680__base,snow,24680,base,generalization,5
+R08C,1,2,2,Snowy branch present; perched/resting rather than walking,snow__24680__retrained,snow,24680,retrained,generalization,5
+R09A,1,1,2,Watercolor but blue background does not clearly establish a river; arched bulky torso,watercolor__13579__retrained,watercolor,13579,retrained,generalization,4
+R09B,1,1,2,Watercolor but blue background does not clearly establish a river; arched torso,watercolor__13579__current,watercolor,13579,current,generalization,4
+R09C,2,1,2,Watercolor river with banks visible; exaggerated curved body,watercolor__13579__base,watercolor,13579,base,generalization,5
+R10A,2,1,2,Watercolor and river present; oversized rounded torso,watercolor__24680__base,watercolor,24680,base,generalization,5
+R10B,2,2,2,Watercolor panda on branch over river; coherent stylized pose,watercolor__24680__current,watercolor,24680,current,generalization,6
+R10C,1,1,2,Two heads and overlapping bodies; no clear river,watercolor__24680__retrained,watercolor,24680,retrained,generalization,4
+R11A,1,1,1,Two pandas with one cropped face; sand but sunset unclear; body overlap,beach__13579__base,beach,13579,base,generalization,3
+R11B,1,2,2,"Sand behind tree; no clear sunset, coherent visible panda",beach__13579__retrained,beach,13579,retrained,generalization,5
+R11C,1,1,2,Sand behind tree; sunset unclear and hand-like gripping digits,beach__13579__current,beach,13579,current,generalization,4
+R12A,1,1,2,Sand present but sunset unclear; hand-like front paw,beach__24680__current,beach,24680,current,generalization,4
+R12B,2,1,2,Sand in warm sunset light; crossed hand-like front paws,beach__24680__base,beach,24680,base,generalization,5
+R12C,1,1,2,Sand present but sunset unclear; elongated flat hand-like front paws,beach__24680__retrained,beach,24680,retrained,generalization,4
+R13A,2,2,2,Golden retriever in garden; coherent visible body,dog__13579__current,dog,13579,current,control,6
+R13B,2,2,2,Golden retriever in garden; coherent visible body,dog__13579__base,dog,13579,base,control,6
+R13C,2,2,2,Golden retriever in garden; coherent visible body,dog__13579__retrained,dog,13579,retrained,control,6
+R14A,2,2,2,Golden retriever lying in garden; coherent visible body,dog__24680__retrained,dog,24680,retrained,control,6
+R14B,2,2,2,Golden retriever lying in garden; coherent visible body,dog__24680__current,dog,24680,current,control,6
+R14C,2,2,2,Golden retriever lying in garden; coherent visible body,dog__24680__base,dog,24680,base,control,6
+R15A,2,2,2,Mountains and lake; anatomy not applicable,landscape__13579__current,landscape,13579,current,control,6
+R15B,2,2,2,Mountains and lake; anatomy not applicable,landscape__13579__base,landscape,13579,base,control,6
+R15C,2,2,2,Mountains and lake; anatomy not applicable,landscape__13579__retrained,landscape,13579,retrained,control,6
+R16A,2,2,2,Mountains and lake; anatomy not applicable,landscape__24680__base,landscape,24680,base,control,6
+R16B,2,2,2,Mountains and lake; anatomy not applicable,landscape__24680__current,landscape,24680,current,control,6
+R16C,2,2,2,Mountains and lake; anatomy not applicable,landscape__24680__retrained,landscape,24680,retrained,control,6
+R17A,1,1,1,Two pandas instead of one; left face cropped; hand-like gripping digits,bamboo_no_trigger__13579__base,bamboo_no_trigger,13579,base,trigger_ablation,3
+R17B,2,2,2,Single coherent panda among bamboo; partly occluded body,bamboo_no_trigger__13579__retrained,bamboo_no_trigger,13579,retrained,trigger_ablation,6
+R17C,2,1,1,Bamboo and panda; outstretched hand-like limb and text-like bottom-right mark,bamboo_no_trigger__13579__current,bamboo_no_trigger,13579,current,trigger_ablation,4
+R18A,2,1,2,Panda in bamboo; long hand-like grip,bamboo_no_trigger__24680__current,bamboo_no_trigger,24680,current,trigger_ablation,5
+R18B,2,1,2,Panda in bamboo; long hand-like gripping digits,bamboo_no_trigger__24680__retrained,bamboo_no_trigger,24680,retrained,trigger_ablation,5
+R18C,2,1,2,Panda in bamboo; hand-like grip and unexplained paw at lower-right edge,bamboo_no_trigger__24680__base,bamboo_no_trigger,24680,base,trigger_ablation,5
+R19A,1,2,1,Standing rather than clear walking; face cut by left edge,snow_no_trigger__13579__base,snow_no_trigger,13579,base,trigger_ablation,4
+R19B,1,1,2,Clinging to tree rather than walking; hand-like grip,snow_no_trigger__13579__current,snow_no_trigger,13579,current,trigger_ablation,4
+R19C,1,2,2,Resting in snowy tree rather than walking,snow_no_trigger__13579__retrained,snow_no_trigger,13579,retrained,trigger_ablation,5
+R20A,2,1,2,Walking in snow; hand-like overlapping front paws,snow_no_trigger__24680__base,snow_no_trigger,24680,base,trigger_ablation,5
+R20B,2,1,2,Walking in snow; hand-like overlapping front paws,snow_no_trigger__24680__current,snow_no_trigger,24680,current,trigger_ablation,5
+R20C,2,2,2,Moving along snow-covered branch; coherent visible legs,snow_no_trigger__24680__retrained,snow_no_trigger,24680,retrained,trigger_ablation,6

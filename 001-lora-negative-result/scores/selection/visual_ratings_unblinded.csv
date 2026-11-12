@@ -1,0 +1,101 @@
+label,adherence,anatomy,quality,notes,id,prompt_id,seed,condition,group,total
+R01A,2,1,1,Face clipped at left; gripping paw ambiguous,bamboo__1234__unet_only,bamboo,1234,unet_only,near_training,4
+R01B,2,2,1,Face clipped at left; trunk occludes body,bamboo__1234__current,bamboo,1234,current,near_training,5
+R01C,2,2,1,Face clipped at left; visible tail and bamboo,bamboo__1234__half,bamboo,1234,half,near_training,5
+R01D,2,1,2,Front paw elongated; otherwise clear subject,bamboo__1234__half_unet_only,bamboo,1234,half_unet_only,near_training,5
+R01E,2,2,2,Clear red panda and bamboo; coherent visible body,bamboo__1234__base,bamboo,1234,base,near_training,6
+R02A,2,1,2,Grip looks hand-like,bamboo__5678__half_unet_only,bamboo,5678,half_unet_only,near_training,5
+R02B,2,2,1,Body coherent; small text-like mark at bottom right,bamboo__5678__unet_only,bamboo,5678,unet_only,near_training,5
+R02C,2,1,2,Extra orange protrusion near bamboo makes limbs/tail ambiguous,bamboo__5678__base,bamboo,5678,base,near_training,5
+R02D,2,2,1,Coherent pose; text-like mark at bottom right,bamboo__5678__current,bamboo,5678,current,near_training,5
+R02E,2,2,2,Clear face and coherent grip; body partly occluded,bamboo__5678__half,bamboo,5678,half,near_training,6
+R03A,2,2,1,Left side of face clipped,branch__1234__base,branch,1234,base,near_training,5
+R03B,2,2,2,Clear red panda resting; trunk occludes body,branch__1234__half,branch,1234,half,near_training,6
+R03C,2,2,2,Clear resting pose; tail visible,branch__1234__unet_only,branch,1234,unet_only,near_training,6
+R03D,2,2,1,Left side of face clipped,branch__1234__half_unet_only,branch,1234,half_unet_only,near_training,5
+R03E,2,2,2,Clear resting pose on branch,branch__1234__current,branch,1234,current,near_training,6
+R04A,2,2,2,Resting pose; branches partly occlude body,branch__5678__current,branch,5678,current,near_training,6
+R04B,2,2,2,Clear resting pose and face,branch__5678__unet_only,branch,5678,unet_only,near_training,6
+R04C,2,2,2,Clear resting pose; hanging forelimb,branch__5678__base,branch,5678,base,near_training,6
+R04D,2,2,2,Clear resting pose and face,branch__5678__half,branch,5678,half,near_training,6
+R04E,2,2,2,Clear resting pose and face,branch__5678__half_unet_only,branch,5678,half_unet_only,near_training,6
+R05A,2,2,2,Detailed close-up; no clear facial defect,portrait__1234__half_unet_only,portrait,1234,half_unet_only,near_training,6
+R05B,2,2,2,Detailed close-up; no clear facial defect,portrait__1234__base,portrait,1234,base,near_training,6
+R05C,2,2,2,Detailed close-up; no clear facial defect,portrait__1234__unet_only,portrait,1234,unet_only,near_training,6
+R05D,2,2,2,Detailed close-up; open mouth visible,portrait__1234__current,portrait,1234,current,near_training,6
+R05E,2,2,2,Detailed close-up; no clear facial defect,portrait__1234__half,portrait,1234,half,near_training,6
+R06A,2,2,1,One eye and side of face clipped,portrait__5678__half,portrait,5678,half,near_training,5
+R06B,2,2,2,Face retained within frame; detailed profile,portrait__5678__current,portrait,5678,current,near_training,6
+R06C,2,2,1,One eye and side of face clipped,portrait__5678__base,portrait,5678,base,near_training,5
+R06D,2,2,1,One eye and side of face clipped,portrait__5678__unet_only,portrait,5678,unet_only,near_training,5
+R06E,2,2,1,One eye and side of face clipped,portrait__5678__half_unet_only,portrait,5678,half_unet_only,near_training,5
+R07A,1,1,2,Snow present; walking unclear; limb/tail separation ambiguous,snow__1234__unet_only,snow,1234,unet_only,generalization,4
+R07B,1,1,2,Snow present; walking unclear; limb/tail separation ambiguous,snow__1234__base,snow,1234,base,generalization,4
+R07C,1,1,2,Snow present; walking unclear; limb/tail separation ambiguous,snow__1234__half,snow,1234,half,generalization,4
+R07D,1,1,2,Snow present; walking unclear; limb/tail separation ambiguous,snow__1234__half_unet_only,snow,1234,half_unet_only,generalization,4
+R07E,1,1,2,Snow present; walking unclear; limb/tail separation ambiguous,snow__1234__current,snow,1234,current,generalization,4
+R08A,1,1,1,Static pose; swollen torso and uncertain rear limbs,snow__5678__half_unet_only,snow,5678,half_unet_only,generalization,3
+R08B,1,1,1,Static pose; swollen torso and uncertain rear limbs,snow__5678__base,snow,5678,base,generalization,3
+R08C,1,1,1,Face outside frame; arched torso and limbs ambiguous,snow__5678__half,snow,5678,half,generalization,3
+R08D,1,1,1,Perched on snowy branch; curved body and paw proportions odd,snow__5678__current,snow,5678,current,generalization,3
+R08E,1,0,1,Very small misplaced head under oversized arched torso; severe morphology,snow__5678__unet_only,snow,5678,unet_only,generalization,2
+R09A,2,1,1,Watercolor and river present; face clipped; oversized folded haunch,watercolor__1234__half,watercolor,1234,half,generalization,4
+R09B,2,2,1,Watercolor and river present; half of face cropped,watercolor__1234__base,watercolor,1234,base,generalization,5
+R09C,2,1,1,Watercolor and river present; face clipped; odd rear foot,watercolor__1234__current,watercolor,1234,current,generalization,4
+R09D,2,1,2,Watercolor and river present; hand-like pale digits,watercolor__1234__unet_only,watercolor,1234,unet_only,generalization,5
+R09E,2,1,2,Watercolor and river present; rounded torso and ambiguous paw,watercolor__1234__half_unet_only,watercolor,1234,half_unet_only,generalization,5
+R10A,1,1,1,River absent; angular forehead and hand-like feet,watercolor__5678__unet_only,watercolor,5678,unet_only,generalization,3
+R10B,1,1,1,River absent; angular forehead and hand-like feet,watercolor__5678__half_unet_only,watercolor,5678,half_unet_only,generalization,3
+R10C,1,1,1,River absent; oversized forehead and hand-like paws,watercolor__5678__half,watercolor,5678,half,generalization,3
+R10D,1,1,2,River absent; hand-like grip; otherwise cohesive watercolor,watercolor__5678__current,watercolor,5678,current,generalization,4
+R10E,1,1,1,River absent; angular forehead and hand-like feet,watercolor__5678__base,watercolor,5678,base,generalization,3
+R11A,2,1,1,Beach and sunset present; face clipped; bent torso and tail/leg ambiguity,beach__1234__current,beach,1234,current,generalization,4
+R11B,2,1,2,Beach and sunset present; unusually thin long forelegs,beach__1234__unet_only,beach,1234,unet_only,generalization,5
+R11C,2,1,2,Beach and sunset present; unusually thin long forelegs,beach__1234__base,beach,1234,base,generalization,5
+R11D,2,1,2,Beach and sunset present; short tail and uncertain rear anatomy,beach__1234__half,beach,1234,half,generalization,5
+R11E,2,1,2,Beach and sunset present; unusually thin long forelegs,beach__1234__half_unet_only,beach,1234,half_unet_only,generalization,5
+R12A,1,1,2,Beach present; sunset only implied by light; rear limb/tail ambiguous,beach__5678__base,beach,5678,base,generalization,4
+R12B,1,1,2,Beach present; sunset only implied by light; rear limb/tail ambiguous,beach__5678__unet_only,beach,5678,unet_only,generalization,4
+R12C,1,1,2,Beach present; sunset only implied by light; rear limb/tail ambiguous,beach__5678__half,beach,5678,half,generalization,4
+R12D,1,1,2,Beach present; sunset only implied by light; rear limb/tail ambiguous,beach__5678__half_unet_only,beach,5678,half_unet_only,generalization,4
+R12E,1,2,1,Beach present; sunset only implied by light; body clipped/occluded by dune,beach__5678__current,beach,5678,current,generalization,4
+R13A,2,2,2,Golden retriever in garden; no clear defect,dog__1234__half_unet_only,dog,1234,half_unet_only,control,6
+R13B,2,2,2,Golden retriever in garden; no clear defect,dog__1234__half,dog,1234,half,control,6
+R13C,2,2,2,Golden retriever in garden; no clear defect,dog__1234__current,dog,1234,current,control,6
+R13D,2,2,2,Golden retriever in garden; no clear defect,dog__1234__base,dog,1234,base,control,6
+R13E,2,2,2,Golden retriever in garden; no clear defect,dog__1234__unet_only,dog,1234,unet_only,control,6
+R14A,2,2,2,Golden retriever in garden; coherent visible limbs,dog__5678__half_unet_only,dog,5678,half_unet_only,control,6
+R14B,2,2,2,Golden retriever in garden; coherent visible limbs,dog__5678__unet_only,dog,5678,unet_only,control,6
+R14C,2,2,2,Golden retriever in garden; coherent visible limbs,dog__5678__base,dog,5678,base,control,6
+R14D,2,2,2,Golden retriever in garden; coherent visible limbs,dog__5678__half,dog,5678,half,control,6
+R14E,2,2,2,Golden retriever in garden; coherent visible limbs,dog__5678__current,dog,5678,current,control,6
+R15A,2,2,2,Mountains and lake present; anatomy not applicable,landscape__1234__unet_only,landscape,1234,unet_only,control,6
+R15B,2,2,2,Mountains and lake present; anatomy not applicable,landscape__1234__base,landscape,1234,base,control,6
+R15C,2,2,2,Mountains and lake present; anatomy not applicable,landscape__1234__half_unet_only,landscape,1234,half_unet_only,control,6
+R15D,2,2,2,Mountains and lake present; anatomy not applicable,landscape__1234__half,landscape,1234,half,control,6
+R15E,2,2,2,Mountains and lake present; anatomy not applicable,landscape__1234__current,landscape,1234,current,control,6
+R16A,2,2,2,Mountains and small lake/pond present; anatomy not applicable,landscape__5678__half_unet_only,landscape,5678,half_unet_only,control,6
+R16B,2,2,2,Mountains and small lake/pond present; anatomy not applicable,landscape__5678__current,landscape,5678,current,control,6
+R16C,2,2,2,Mountains and small lake/pond present; anatomy not applicable,landscape__5678__base,landscape,5678,base,control,6
+R16D,2,2,2,Mountains and small lake/pond present; anatomy not applicable,landscape__5678__unet_only,landscape,5678,unet_only,control,6
+R16E,2,2,2,Mountains and small lake/pond present; anatomy not applicable,landscape__5678__half,landscape,5678,half,control,6
+R17A,2,2,1,Bamboo present; left face clipped,bamboo_no_trigger__1234__base,bamboo_no_trigger,1234,base,trigger_ablation,5
+R17B,2,2,1,Bamboo present; left face clipped,bamboo_no_trigger__1234__unet_only,bamboo_no_trigger,1234,unet_only,trigger_ablation,5
+R17C,2,2,1,Bamboo present; left face clipped,bamboo_no_trigger__1234__half_unet_only,bamboo_no_trigger,1234,half_unet_only,trigger_ablation,5
+R17D,2,2,2,Clear face; body partly occluded by bamboo,bamboo_no_trigger__1234__half,bamboo_no_trigger,1234,half,trigger_ablation,6
+R17E,2,2,2,Clear face; body partly occluded by bamboo,bamboo_no_trigger__1234__current,bamboo_no_trigger,1234,current,trigger_ablation,6
+R18A,2,1,2,Large rounded torso; paws/support unclear,bamboo_no_trigger__5678__base,bamboo_no_trigger,5678,base,trigger_ablation,5
+R18B,2,2,2,Clear resting grip on bamboo,bamboo_no_trigger__5678__half_unet_only,bamboo_no_trigger,5678,half_unet_only,trigger_ablation,6
+R18C,2,2,1,Clear pose; text-like mark at bottom right,bamboo_no_trigger__5678__current,bamboo_no_trigger,5678,current,trigger_ablation,5
+R18D,2,2,2,Clear resting grip on bamboo,bamboo_no_trigger__5678__half,bamboo_no_trigger,5678,half,trigger_ablation,6
+R18E,2,2,2,Clear resting grip on bamboo,bamboo_no_trigger__5678__unet_only,bamboo_no_trigger,5678,unet_only,trigger_ablation,6
+R19A,1,1,2,Snow present; standing rather than clear walk; tail/limbs ambiguous,snow_no_trigger__1234__unet_only,snow_no_trigger,1234,unet_only,trigger_ablation,4
+R19B,1,1,2,Snow present; walking unclear; hind limbs partly ambiguous,snow_no_trigger__1234__half,snow_no_trigger,1234,half,trigger_ablation,4
+R19C,1,1,2,Snow present; walking unclear; hind limbs partly ambiguous,snow_no_trigger__1234__current,snow_no_trigger,1234,current,trigger_ablation,4
+R19D,1,1,1,Snow present; static curved pose; torso/leg/tail separation odd,snow_no_trigger__1234__base,snow_no_trigger,1234,base,trigger_ablation,3
+R19E,1,1,2,Snow present; walking unclear; long tail or leg ambiguous,snow_no_trigger__1234__half_unet_only,snow_no_trigger,1234,half_unet_only,trigger_ablation,4
+R20A,1,1,1,Perched on snowy branch; elongated curved body; walking unclear,snow_no_trigger__5678__half,snow_no_trigger,5678,half,trigger_ablation,3
+R20B,2,1,2,Walking on snow; thick limbs and tail separation ambiguous,snow_no_trigger__5678__half_unet_only,snow_no_trigger,5678,half_unet_only,trigger_ablation,5
+R20C,2,1,2,Walking on snow; oversized claws and thick limbs,snow_no_trigger__5678__base,snow_no_trigger,5678,base,trigger_ablation,5
+R20D,2,1,2,Walking on snow; thick limbs and tail separation ambiguous,snow_no_trigger__5678__unet_only,snow_no_trigger,5678,unet_only,trigger_ablation,5
+R20E,1,1,1,Perched on snowy branch; elongated curved body; walking unclear,snow_no_trigger__5678__current,snow_no_trigger,5678,current,trigger_ablation,3

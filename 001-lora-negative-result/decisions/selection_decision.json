@@ -1,0 +1,105 @@
+{
+  "candidate": "half_unet_only",
+  "strength_model": 0.5,
+  "strength_clip": 0.0,
+  "status": "selected_for_confirmation_not_proven_improved",
+  "frozen_utc": "2026-11-12T08:42:47.619613+00:00",
+  "config_sha256": "569157ee077624cb1630f2465266882e0766b5cb777ac6f17aa5fe13373cf609",
+  "source_lora_sha256": "98c024391dd8e76fa6c854baf69bed04e0d627dce82ba5674d1f81d91808532b",
+  "metrics_sha256": "18f92081169ef7fd5b87320c6eae0e7a7b72548b0a13a8241e4db5c60444409f",
+  "ratings_sha256": "694eda6456465d16bae41dac26917a73bc6d7151322725c76f6dd3baceab9909",
+  "primary": {
+    "group": "primary",
+    "condition": "half_unet_only",
+    "n": 12,
+    "mean_clip": 0.3630827988187472,
+    "delta_base": 0.0036812772353490195,
+    "wins_base": 8,
+    "ci_low_base": -0.0003509347637494405,
+    "ci_high_base": 0.007543692986170451,
+    "delta_current": 0.003911619385083516,
+    "wins_current": 8,
+    "ci_low_current": -0.002091936767101288,
+    "ci_high_current": 0.012332407136758169
+  },
+  "control": {
+    "group": "control",
+    "condition": "half_unet_only",
+    "n": 4,
+    "mean_clip": 0.3214813396334648,
+    "delta_base": -0.0004789382219314575,
+    "wins_base": 2,
+    "ci_low_base": -0.0019776076078414917,
+    "ci_high_base": 0.0010197311639785767,
+    "delta_current": -0.00590844452381134,
+    "wins_current": 2,
+    "ci_low_current": -0.013067647814750671,
+    "ci_high_current": 0.0012507587671279907
+  },
+  "visual": [
+    {
+      "group": "all",
+      "condition": "half_unet_only",
+      "n": "20",
+      "mean_adherence": "1.75",
+      "mean_anatomy": "1.5",
+      "mean_quality": "1.75",
+      "mean_total": "5",
+      "severe_anatomy_count": "0"
+    },
+    {
+      "group": "primary",
+      "condition": "half_unet_only",
+      "n": "12",
+      "mean_adherence": "1.6666666666666667",
+      "mean_anatomy": "1.3333333333333333",
+      "mean_quality": "1.6666666666666667",
+      "mean_total": "4.666666666666667",
+      "severe_anatomy_count": "0"
+    },
+    {
+      "group": "control",
+      "condition": "half_unet_only",
+      "n": "4",
+      "mean_adherence": "2",
+      "mean_anatomy": "2",
+      "mean_quality": "2",
+      "mean_total": "6",
+      "severe_anatomy_count": "0"
+    },
+    {
+      "group": "trigger_ablation",
+      "condition": "half_unet_only",
+      "n": "4",
+      "mean_adherence": "1.75",
+      "mean_anatomy": "1.5",
+      "mean_quality": "1.75",
+      "mean_total": "5",
+      "severe_anatomy_count": "0"
+    }
+  ],
+  "rationale": [
+    "Highest primary mean CLIP among eligible adjusted LoRA candidates; gap to half is 0.00161124, greater than the 0.001 tie band.",
+    "Control mean delta versus current -0.00590844 passes predeclared -0.01 gate.",
+    "No severe anatomy=0 ratings for selected candidate; no systematic severe regression. Moderate anatomy regressions occur in 3 primary cases versus current and remain a concern.",
+    "Primary visual total 4.6667/6 versus current 4.75/6; anatomy 1.3333/2 versus 1.5833/2. This is not a qualitative improvement claim.",
+    "Primary CLIP uncertainty interval crosses zero against both comparators; current-relative seed means have opposite signs."
+  ],
+  "confirmation": {
+    "seeds": [
+      9012,
+      3456
+    ],
+    "conditions": [
+      "base",
+      "current",
+      "half_unet_only"
+    ],
+    "images": 60,
+    "generated": false
+  },
+  "weight_export": {
+    "performed": false,
+    "next": "If candidate is confirmed, bake component strengths into LoRA and verify equivalence; current artifacts/test_rpanda.safetensors is the original source."
+  }
+}

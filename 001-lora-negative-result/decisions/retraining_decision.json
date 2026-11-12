@@ -1,0 +1,63 @@
+{
+  "candidate": "retrained",
+  "artifact": "artifacts/retraining/rpanda_unet300.safetensors",
+  "status": "improvement_not_confirmed",
+  "supported": false,
+  "decided_utc": "2026-11-12T09:23:19.410470+00:00",
+  "primary": {
+    "group": "primary",
+    "condition": "retrained",
+    "n": 12,
+    "mean_clip": 0.3383578583598137,
+    "delta_base": -0.00885466734568278,
+    "wins_base": 4,
+    "ci_low_base": -0.025882760683695476,
+    "ci_high_base": 0.006693090001742045,
+    "delta_current": -0.010368779301643372,
+    "wins_current": 5,
+    "ci_low_current": -0.021888601283232372,
+    "ci_high_current": 0.0013122186064720154
+  },
+  "control": {
+    "group": "control",
+    "condition": "retrained",
+    "n": 4,
+    "mean_clip": 0.31441541016101837,
+    "delta_base": 0.003068171441555023,
+    "wins_base": 2,
+    "ci_low_base": -0.010093465447425842,
+    "ci_high_base": 0.01622980833053589,
+    "delta_current": -0.003307230770587921,
+    "wins_current": 2,
+    "ci_low_current": -0.012531161308288574,
+    "ci_high_current": 0.005916699767112732
+  },
+  "seed_results": [
+    {
+      "condition": "retrained",
+      "seed": "13579",
+      "mean_clip": "0.3395387878020604",
+      "delta_current": "-0.005300670862197876",
+      "delta_base": "0.0053644875685373945"
+    },
+    {
+      "condition": "retrained",
+      "seed": "24680",
+      "mean_clip": "0.33717692891756695",
+      "delta_current": "-0.015436887741088867",
+      "delta_base": "-0.023073822259902954"
+    }
+  ],
+  "ratings_sha256": "9a3764a60aa68c167cf9b0287363de9fe428411afc84cc4b20479ef6d66de674",
+  "metrics_sha256": "ec464e2a655dfad8bb5a33b41c9d87e0154d0fb4ca87b3c20df723ca9f4dd94d",
+  "artifact_sha256": "b1f3c2fd1492423c80079ab1eea4d8be09e0022a0ccd437ab886f90ef3a05e24",
+  "rationale": [
+    "Primary CLIP below current and base, fails preregistered support rule.",
+    "Current-relative means negative at both new seeds; base-relative means change sign.",
+    "Primary visual anatomy 1.583 and quality 2.0 improve over current 1.167/1.75, but adherence falls to 1.333 from 1.583. Tradeoff is not overall improvement.",
+    "Persistent tree poses and reduced close-up/walking/beach adherence are consistent with overspecialization; memorization/overfitting not directly measured."
+  ],
+  "variant_count": 1,
+  "further_training_or_strength_search": false,
+  "final_artifact_label": "experimental; improvement unconfirmed"
+}

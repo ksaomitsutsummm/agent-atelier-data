@@ -1,0 +1,101 @@
+label,adherence,anatomy,quality,notes
+R01A,2,1,1,Face clipped at left; gripping paw ambiguous
+R01B,2,2,1,Face clipped at left; trunk occludes body
+R01C,2,2,1,Face clipped at left; visible tail and bamboo
+R01D,2,1,2,Front paw elongated; otherwise clear subject
+R01E,2,2,2,Clear red panda and bamboo; coherent visible body
+R02A,2,1,2,Grip looks hand-like
+R02B,2,2,1,Body coherent; small text-like mark at bottom right
+R02C,2,1,2,Extra orange protrusion near bamboo makes limbs/tail ambiguous
+R02D,2,2,1,Coherent pose; text-like mark at bottom right
+R02E,2,2,2,Clear face and coherent grip; body partly occluded
+R03A,2,2,1,Left side of face clipped
+R03B,2,2,2,Clear red panda resting; trunk occludes body
+R03C,2,2,2,Clear resting pose; tail visible
+R03D,2,2,1,Left side of face clipped
+R03E,2,2,2,Clear resting pose on branch
+R04A,2,2,2,Resting pose; branches partly occlude body
+R04B,2,2,2,Clear resting pose and face
+R04C,2,2,2,Clear resting pose; hanging forelimb
+R04D,2,2,2,Clear resting pose and face
+R04E,2,2,2,Clear resting pose and face
+R05A,2,2,2,Detailed close-up; no clear facial defect
+R05B,2,2,2,Detailed close-up; no clear facial defect
+R05C,2,2,2,Detailed close-up; no clear facial defect
+R05D,2,2,2,Detailed close-up; open mouth visible
+R05E,2,2,2,Detailed close-up; no clear facial defect
+R06A,2,2,1,One eye and side of face clipped
+R06B,2,2,2,Face retained within frame; detailed profile
+R06C,2,2,1,One eye and side of face clipped
+R06D,2,2,1,One eye and side of face clipped
+R06E,2,2,1,One eye and side of face clipped
+R07A,1,1,2,Snow present; walking unclear; limb/tail separation ambiguous
+R07B,1,1,2,Snow present; walking unclear; limb/tail separation ambiguous
+R07C,1,1,2,Snow present; walking unclear; limb/tail separation ambiguous
+R07D,1,1,2,Snow present; walking unclear; limb/tail separation ambiguous
+R07E,1,1,2,Snow present; walking unclear; limb/tail separation ambiguous
+R08A,1,1,1,Static pose; swollen torso and uncertain rear limbs
+R08B,1,1,1,Static pose; swollen torso and uncertain rear limbs
+R08C,1,1,1,Face outside frame; arched torso and limbs ambiguous
+R08D,1,1,1,Perched on snowy branch; curved body and paw proportions odd
+R08E,1,0,1,Very small misplaced head under oversized arched torso; severe morphology
+R09A,2,1,1,Watercolor and river present; face clipped; oversized folded haunch
+R09B,2,2,1,Watercolor and river present; half of face cropped
+R09C,2,1,1,Watercolor and river present; face clipped; odd rear foot
+R09D,2,1,2,Watercolor and river present; hand-like pale digits
+R09E,2,1,2,Watercolor and river present; rounded torso and ambiguous paw
+R10A,1,1,1,River absent; angular forehead and hand-like feet
+R10B,1,1,1,River absent; angular forehead and hand-like feet
+R10C,1,1,1,River absent; oversized forehead and hand-like paws
+R10D,1,1,2,River absent; hand-like grip; otherwise cohesive watercolor
+R10E,1,1,1,River absent; angular forehead and hand-like feet
+R11A,2,1,1,Beach and sunset present; face clipped; bent torso and tail/leg ambiguity
+R11B,2,1,2,Beach and sunset present; unusually thin long forelegs
+R11C,2,1,2,Beach and sunset present; unusually thin long forelegs
+R11D,2,1,2,Beach and sunset present; short tail and uncertain rear anatomy
+R11E,2,1,2,Beach and sunset present; unusually thin long forelegs
+R12A,1,1,2,Beach present; sunset only implied by light; rear limb/tail ambiguous
+R12B,1,1,2,Beach present; sunset only implied by light; rear limb/tail ambiguous
+R12C,1,1,2,Beach present; sunset only implied by light; rear limb/tail ambiguous
+R12D,1,1,2,Beach present; sunset only implied by light; rear limb/tail ambiguous
+R12E,1,2,1,Beach present; sunset only implied by light; body clipped/occluded by dune
+R13A,2,2,2,Golden retriever in garden; no clear defect
+R13B,2,2,2,Golden retriever in garden; no clear defect
+R13C,2,2,2,Golden retriever in garden; no clear defect
+R13D,2,2,2,Golden retriever in garden; no clear defect
+R13E,2,2,2,Golden retriever in garden; no clear defect
+R14A,2,2,2,Golden retriever in garden; coherent visible limbs
+R14B,2,2,2,Golden retriever in garden; coherent visible limbs
+R14C,2,2,2,Golden retriever in garden; coherent visible limbs
+R14D,2,2,2,Golden retriever in garden; coherent visible limbs
+R14E,2,2,2,Golden retriever in garden; coherent visible limbs
+R15A,2,2,2,Mountains and lake present; anatomy not applicable
+R15B,2,2,2,Mountains and lake present; anatomy not applicable
+R15C,2,2,2,Mountains and lake present; anatomy not applicable
+R15D,2,2,2,Mountains and lake present; anatomy not applicable
+R15E,2,2,2,Mountains and lake present; anatomy not applicable
+R16A,2,2,2,Mountains and small lake/pond present; anatomy not applicable
+R16B,2,2,2,Mountains and small lake/pond present; anatomy not applicable
+R16C,2,2,2,Mountains and small lake/pond present; anatomy not applicable
+R16D,2,2,2,Mountains and small lake/pond present; anatomy not applicable
+R16E,2,2,2,Mountains and small lake/pond present; anatomy not applicable
+R17A,2,2,1,Bamboo present; left face clipped
+R17B,2,2,1,Bamboo present; left face clipped
+R17C,2,2,1,Bamboo present; left face clipped
+R17D,2,2,2,Clear face; body partly occluded by bamboo
+R17E,2,2,2,Clear face; body partly occluded by bamboo
+R18A,2,1,2,Large rounded torso; paws/support unclear
+R18B,2,2,2,Clear resting grip on bamboo
+R18C,2,2,1,Clear pose; text-like mark at bottom right
+R18D,2,2,2,Clear resting grip on bamboo
+R18E,2,2,2,Clear resting grip on bamboo
+R19A,1,1,2,Snow present; standing rather than clear walk; tail/limbs ambiguous
+R19B,1,1,2,Snow present; walking unclear; hind limbs partly ambiguous
+R19C,1,1,2,Snow present; walking unclear; hind limbs partly ambiguous
+R19D,1,1,1,Snow present; static curved pose; torso/leg/tail separation odd
+R19E,1,1,2,Snow present; walking unclear; long tail or leg ambiguous
+R20A,1,1,1,Perched on snowy branch; elongated curved body; walking unclear
+R20B,2,1,2,Walking on snow; thick limbs and tail separation ambiguous
+R20C,2,1,2,Walking on snow; oversized claws and thick limbs
+R20D,2,1,2,Walking on snow; thick limbs and tail separation ambiguous
+R20E,1,1,1,Perched on snowy branch; elongated curved body; walking unclear

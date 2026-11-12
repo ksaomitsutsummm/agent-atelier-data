@@ -1,0 +1,81 @@
+label,adherence,anatomy,quality,notes
+R01A,2,2,2,Bamboo and clear face; partly occluded body without clear defect
+R01B,2,2,2,Bamboo and clear face; coherent visible hanging pose
+R01C,2,2,2,Bamboo and clear face; coherent visible hanging pose
+R01D,2,2,2,Bamboo and clear face; lower body hidden by foliage
+R02A,1,1,2,Two pandas rather than one; overlapping bodies and hand-like grip
+R02B,2,1,2,Single panda in bamboo; hand-like elongated gripping digits
+R02C,2,1,1,Close-up cropped at left; long pale hand-like digits
+R02D,1,2,2,Two pandas rather than one; foliage obscures bodies but faces coherent
+R03A,2,1,2,Resting on branch; gripping forepaw looks hand-like
+R03B,2,2,2,Clear resting animal across branch; coherent visible paws
+R03C,2,1,2,Resting pose; hand-like front digits and ambiguous paws
+R03D,2,1,2,Resting on branch; long hand-like gripping digits
+R04A,2,2,2,Clear resting pose between branches
+R04B,1,1,2,Two heads and overlapping or merged bodies instead of one animal
+R04C,2,2,2,Clear close-up resting on branch
+R04D,1,1,2,Two heads and overlapping or merged bodies instead of one animal
+R05A,2,2,2,Detailed close-up face and fur; no clear defect
+R05B,2,2,2,Detailed close-up face and fur; no clear defect
+R05C,2,2,2,Detailed close-up face and fur; no clear defect
+R05D,2,2,2,Detailed close-up face and fur; no clear defect
+R06A,2,2,2,Detailed close-up face and fur; no clear defect
+R06B,2,2,2,Detailed close-up face and fur; no clear defect
+R06C,2,2,2,Detailed close-up face and fur; no clear defect
+R06D,2,2,2,Detailed close-up face and fur; no clear defect
+R07A,1,1,2,Snow present; hunched static posture and oversized rounded torso
+R07B,2,1,2,Raised paw suggests walking; long forelimbs and rounded torso
+R07C,1,1,2,Perched on snowy branch; walking unclear and tiny head against arched torso
+R07D,1,1,2,Snow present; static hunched pose and merged-looking dark legs
+R08A,2,2,2,Walking on snow; visible limbs coherent though rear body cropped
+R08B,2,2,2,Walking below branch in snow; body partly occluded
+R08C,2,2,2,Walking on snow; visible limbs coherent though rear body cropped
+R08D,1,2,2,Snow present; crouched/sitting pose rather than clear walking
+R09A,1,1,2,Watercolor but no clear river; hand-like grip
+R09B,2,2,1,Watercolor and river; face partly outside left edge
+R09C,2,1,2,Watercolor and river; exaggerated arched torso and pale hand-like digits
+R09D,2,1,2,Watercolor and river; exaggerated arched torso and pale hand-like digits
+R10A,2,2,1,Watercolor river and coherent partly hidden panda; text-like signature at bottom
+R10B,2,2,2,Watercolor river close-up; coherent visible face/body
+R10C,2,1,2,"River present; long neck, small head and oversized rounded haunch"
+R10D,2,1,1,River present; long neck and hand-like foot; text-like signature at bottom
+R11A,2,1,2,Beach sunset present; oversized arched torso and thin long forelegs
+R11B,2,1,2,Beach sunset implied by orange light; oversized hunched torso
+R11C,1,2,2,Sandy ground but no clear sunset or sea; coherent crouching pose
+R11D,2,1,2,Beach sunset present; oversized arched torso and long forelegs
+R12A,2,1,2,Beach sunset; extended thin hand-like foot
+R12B,2,1,2,Beach sunset; long pale claw-like fingers
+R12C,1,2,2,Sand present but no clear sunset or sea; partly cropped body
+R12D,2,1,2,Beach sunset; hand-like toes on forefeet
+R13A,2,2,2,Golden retriever in garden; coherent visible stance
+R13B,2,2,2,Golden retriever in garden; coherent visible stance
+R13C,2,2,2,Golden retriever in garden; coherent visible stance
+R13D,2,1,2,Golden retriever in garden; unusually long splayed rear limb
+R14A,2,2,2,Golden retriever lying in garden; coherent visible limbs
+R14B,2,1,2,Garden and dog present; flattened torso and limbs blend into grass
+R14C,2,2,2,Golden retriever lying in garden; coherent visible limbs
+R14D,2,2,2,Golden retriever lying in garden; coherent visible limbs
+R15A,2,2,2,Mountains and lake; anatomy not applicable
+R15B,2,2,2,Mountains and lake; anatomy not applicable
+R15C,2,2,2,Mountains and lake; anatomy not applicable
+R15D,2,2,2,Mountains and lake; anatomy not applicable
+R16A,2,2,2,Mountains and lake; anatomy not applicable
+R16B,2,2,2,Mountains and lake; anatomy not applicable
+R16C,2,2,2,Mountains and lake; anatomy not applicable
+R16D,2,2,2,Mountains and lake; anatomy not applicable
+R17A,2,2,2,Bamboo and coherent visible face; body partly obscured
+R17B,2,2,2,Bamboo and coherent visible face; body partly obscured
+R17C,2,2,2,Bamboo and coherent visible face; body partly obscured
+R17D,2,2,2,Bamboo and coherent visible face; body partly obscured
+R18A,2,2,2,Single panda among bamboo; body obscured by leaves
+R18B,2,1,2,Twisted body and raised thick limb ending in hand-like digits
+R18C,2,1,2,Bamboo and panda; hand-like gripping fingers
+R18D,2,1,2,Bamboo and panda; pale hand-like gripping fingers
+R19A,1,1,2,Snow present; static hunched pose and oversized arched torso
+R19B,1,1,2,Snow present; static pose and dark limbs merging together
+R19C,1,1,2,Snow present; static hunched pose and oversized arched torso
+R19D,1,1,2,Perched on snowy branch; walking unclear and arched torso
+R20A,1,2,2,Snow present; crouched/sitting pose rather than clear walking
+R20B,2,2,2,Walking in snow; coherent visible limbs
+R20C,2,2,2,Walking in snow; coherent visible limbs
+R20D,2,2,1,Walking beneath branch; part of face cut by left edge

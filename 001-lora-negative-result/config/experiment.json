@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "checkpoint": "v1-5-pruned-emaonly.safetensors",
+  "lora": "test_rpanda.safetensors",
+  "lora_sha256": "98c024391dd8e76fa6c854baf69bed04e0d627dce82ba5674d1f81d91808532b",
+  "conditions": {
+    "base": null,
+    "current": [
+      1.0,
+      1.0
+    ],
+    "half": [
+      0.5,
+      0.5
+    ],
+    "unet_only": [
+      1.0,
+      0.0
+    ],
+    "half_unet_only": [
+      0.5,
+      0.0
+    ]
+  },
+  "seeds": {
+    "selection": [
+      1234,
+      5678
+    ],
+    "confirmation": [
+      9012,
+      3456
+    ]
+  },
+  "generation": {
+    "width": 512,
+    "height": 512,
+    "steps": 20,
+    "cfg": 7.0,
+    "sampler_name": "euler",
+    "scheduler": "normal",
+    "denoise": 1.0,
+    "negative": "blurry, low quality, distorted"
+  },
+  "clip": {
+    "model": "openai/clip-vit-base-patch32",
+    "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+    "transformers": "4.46.3",
+    "text_policy": "generation prompt with leading rpanda, removed; same semantic text across trigger pairs",
+    "metric": "cosine (unscaled, not logit or probability)"
+  },
+  "prompts": [
+    {
+      "id": "bamboo",
+      "text": "rpanda, a photograph of a red panda in a bamboo forest",
+      "group": "near_training",
+      "eval_text": "a photograph of a red panda in a bamboo forest"
+    },
+    {
+      "id": "branch",
+      "text": "rpanda, a photograph of a red panda resting on a tree branch",
+      "group": "near_training",
+      "eval_text": "a photograph of a red panda resting on a tree branch"
+    },
+    {
+      "id": "portrait",
+      "text": "rpanda, a close-up photograph of a red panda face, detailed fur",
+      "group": "near_training",
+      "eval_text": "a close-up photograph of a red panda face, detailed fur"
+    },
+    {
+      "id": "snow",
+      "text": "rpanda, a photograph of a red panda walking through snow",
+      "group": "generalization",
+      "eval_text": "a photograph of a red panda walking through snow"
+    },
+    {
+      "id": "watercolor",
+      "text": "rpanda, a watercolor painting of a red panda beside a river",
+      "group": "generalization",
+      "eval_text": "a watercolor painting of a red panda beside a river"
+    },
+    {
+      "id": "beach",
+      "text": "rpanda, a photograph of a red panda on a sandy beach at sunset",
+      "group": "generalization",
+      "eval_text": "a photograph of a red panda on a sandy beach at sunset"
+    },
+    {
+      "id": "dog",
+      "text": "a photograph of a golden retriever in a garden",
+      "group": "control",
+      "eval_text": "a photograph of a golden retriever in a garden"
+    },
+    {
+      "id": "landscape",
+      "text": "a photograph of a mountain landscape with a lake",
+      "group": "control",
+      "eval_text": "a photograph of a mountain landscape with a lake"
+    },
+    {
+      "id": "bamboo_no_trigger",
+      "text": "a photograph of a red panda in a bamboo forest",
+      "group": "trigger_ablation",
+      "eval_text": "a photograph of a red panda in a bamboo forest"
+    },
+    {
+      "id": "snow_no_trigger",
+      "text": "a photograph of a red panda walking through snow",
+      "group": "trigger_ablation",
+      "eval_text": "a photograph of a red panda walking through snow"
+    }
+  ],
+  "selection_rule": {
+    "primary": "mean CLIP on near_training + generalization (12 matched cases)",
+    "eligibility": "control mean delta versus current >= -0.01 and blind review no systematic severe regression",
+    "tie": "within 0.001 prefer lower total strength",
+    "claim": "candidate only; improvement requires independent confirmation",
+    "blind_review": "per-image prompt adherence, subject anatomy, visual quality; 0=bad,1=mixed,2=good; equal ties allowed"
+  }
+}

@@ -1,0 +1,81 @@
+label,adherence,anatomy,quality,notes,id,prompt_id,seed,condition,group,total
+R01A,2,2,2,Bamboo and clear face; partly occluded body without clear defect,bamboo__9012__current,bamboo,9012,current,near_training,6
+R01B,2,2,2,Bamboo and clear face; coherent visible hanging pose,bamboo__9012__base,bamboo,9012,base,near_training,6
+R01C,2,2,2,Bamboo and clear face; coherent visible hanging pose,bamboo__9012__half_unet_only,bamboo,9012,half_unet_only,near_training,6
+R01D,2,2,2,Bamboo and clear face; lower body hidden by foliage,bamboo__9012__redpandav01,bamboo,9012,redpandav01,near_training,6
+R02A,1,1,2,Two pandas rather than one; overlapping bodies and hand-like grip,bamboo__3456__half_unet_only,bamboo,3456,half_unet_only,near_training,4
+R02B,2,1,2,Single panda in bamboo; hand-like elongated gripping digits,bamboo__3456__current,bamboo,3456,current,near_training,5
+R02C,2,1,1,Close-up cropped at left; long pale hand-like digits,bamboo__3456__base,bamboo,3456,base,near_training,4
+R02D,1,2,2,Two pandas rather than one; foliage obscures bodies but faces coherent,bamboo__3456__redpandav01,bamboo,3456,redpandav01,near_training,5
+R03A,2,1,2,Resting on branch; gripping forepaw looks hand-like,branch__9012__half_unet_only,branch,9012,half_unet_only,near_training,5
+R03B,2,2,2,Clear resting animal across branch; coherent visible paws,branch__9012__redpandav01,branch,9012,redpandav01,near_training,6
+R03C,2,1,2,Resting pose; hand-like front digits and ambiguous paws,branch__9012__current,branch,9012,current,near_training,5
+R03D,2,1,2,Resting on branch; long hand-like gripping digits,branch__9012__base,branch,9012,base,near_training,5
+R04A,2,2,2,Clear resting pose between branches,branch__3456__current,branch,3456,current,near_training,6
+R04B,1,1,2,Two heads and overlapping or merged bodies instead of one animal,branch__3456__half_unet_only,branch,3456,half_unet_only,near_training,4
+R04C,2,2,2,Clear close-up resting on branch,branch__3456__redpandav01,branch,3456,redpandav01,near_training,6
+R04D,1,1,2,Two heads and overlapping or merged bodies instead of one animal,branch__3456__base,branch,3456,base,near_training,4
+R05A,2,2,2,Detailed close-up face and fur; no clear defect,portrait__9012__redpandav01,portrait,9012,redpandav01,near_training,6
+R05B,2,2,2,Detailed close-up face and fur; no clear defect,portrait__9012__current,portrait,9012,current,near_training,6
+R05C,2,2,2,Detailed close-up face and fur; no clear defect,portrait__9012__half_unet_only,portrait,9012,half_unet_only,near_training,6
+R05D,2,2,2,Detailed close-up face and fur; no clear defect,portrait__9012__base,portrait,9012,base,near_training,6
+R06A,2,2,2,Detailed close-up face and fur; no clear defect,portrait__3456__current,portrait,3456,current,near_training,6
+R06B,2,2,2,Detailed close-up face and fur; no clear defect,portrait__3456__redpandav01,portrait,3456,redpandav01,near_training,6
+R06C,2,2,2,Detailed close-up face and fur; no clear defect,portrait__3456__base,portrait,3456,base,near_training,6
+R06D,2,2,2,Detailed close-up face and fur; no clear defect,portrait__3456__half_unet_only,portrait,3456,half_unet_only,near_training,6
+R07A,1,1,2,Snow present; hunched static posture and oversized rounded torso,snow__9012__half_unet_only,snow,9012,half_unet_only,generalization,4
+R07B,2,1,2,Raised paw suggests walking; long forelimbs and rounded torso,snow__9012__base,snow,9012,base,generalization,5
+R07C,1,1,2,Perched on snowy branch; walking unclear and tiny head against arched torso,snow__9012__current,snow,9012,current,generalization,4
+R07D,1,1,2,Snow present; static hunched pose and merged-looking dark legs,snow__9012__redpandav01,snow,9012,redpandav01,generalization,4
+R08A,2,2,2,Walking on snow; visible limbs coherent though rear body cropped,snow__3456__base,snow,3456,base,generalization,6
+R08B,2,2,2,Walking below branch in snow; body partly occluded,snow__3456__current,snow,3456,current,generalization,6
+R08C,2,2,2,Walking on snow; visible limbs coherent though rear body cropped,snow__3456__half_unet_only,snow,3456,half_unet_only,generalization,6
+R08D,1,2,2,Snow present; crouched/sitting pose rather than clear walking,snow__3456__redpandav01,snow,3456,redpandav01,generalization,5
+R09A,1,1,2,Watercolor but no clear river; hand-like grip,watercolor__9012__current,watercolor,9012,current,generalization,4
+R09B,2,2,1,Watercolor and river; face partly outside left edge,watercolor__9012__redpandav01,watercolor,9012,redpandav01,generalization,5
+R09C,2,1,2,Watercolor and river; exaggerated arched torso and pale hand-like digits,watercolor__9012__half_unet_only,watercolor,9012,half_unet_only,generalization,5
+R09D,2,1,2,Watercolor and river; exaggerated arched torso and pale hand-like digits,watercolor__9012__base,watercolor,9012,base,generalization,5
+R10A,2,2,1,Watercolor river and coherent partly hidden panda; text-like signature at bottom,watercolor__3456__current,watercolor,3456,current,generalization,5
+R10B,2,2,2,Watercolor river close-up; coherent visible face/body,watercolor__3456__redpandav01,watercolor,3456,redpandav01,generalization,6
+R10C,2,1,2,"River present; long neck, small head and oversized rounded haunch",watercolor__3456__half_unet_only,watercolor,3456,half_unet_only,generalization,5
+R10D,2,1,1,River present; long neck and hand-like foot; text-like signature at bottom,watercolor__3456__base,watercolor,3456,base,generalization,4
+R11A,2,1,2,Beach sunset present; oversized arched torso and thin long forelegs,beach__9012__base,beach,9012,base,generalization,5
+R11B,2,1,2,Beach sunset implied by orange light; oversized hunched torso,beach__9012__current,beach,9012,current,generalization,5
+R11C,1,2,2,Sandy ground but no clear sunset or sea; coherent crouching pose,beach__9012__redpandav01,beach,9012,redpandav01,generalization,5
+R11D,2,1,2,Beach sunset present; oversized arched torso and long forelegs,beach__9012__half_unet_only,beach,9012,half_unet_only,generalization,5
+R12A,2,1,2,Beach sunset; extended thin hand-like foot,beach__3456__current,beach,3456,current,generalization,5
+R12B,2,1,2,Beach sunset; long pale claw-like fingers,beach__3456__base,beach,3456,base,generalization,5
+R12C,1,2,2,Sand present but no clear sunset or sea; partly cropped body,beach__3456__redpandav01,beach,3456,redpandav01,generalization,5
+R12D,2,1,2,Beach sunset; hand-like toes on forefeet,beach__3456__half_unet_only,beach,3456,half_unet_only,generalization,5
+R13A,2,2,2,Golden retriever in garden; coherent visible stance,dog__9012__half_unet_only,dog,9012,half_unet_only,control,6
+R13B,2,2,2,Golden retriever in garden; coherent visible stance,dog__9012__current,dog,9012,current,control,6
+R13C,2,2,2,Golden retriever in garden; coherent visible stance,dog__9012__base,dog,9012,base,control,6
+R13D,2,1,2,Golden retriever in garden; unusually long splayed rear limb,dog__9012__redpandav01,dog,9012,redpandav01,control,5
+R14A,2,2,2,Golden retriever lying in garden; coherent visible limbs,dog__3456__base,dog,3456,base,control,6
+R14B,2,1,2,Garden and dog present; flattened torso and limbs blend into grass,dog__3456__redpandav01,dog,3456,redpandav01,control,5
+R14C,2,2,2,Golden retriever lying in garden; coherent visible limbs,dog__3456__current,dog,3456,current,control,6
+R14D,2,2,2,Golden retriever lying in garden; coherent visible limbs,dog__3456__half_unet_only,dog,3456,half_unet_only,control,6
+R15A,2,2,2,Mountains and lake; anatomy not applicable,landscape__9012__current,landscape,9012,current,control,6
+R15B,2,2,2,Mountains and lake; anatomy not applicable,landscape__9012__base,landscape,9012,base,control,6
+R15C,2,2,2,Mountains and lake; anatomy not applicable,landscape__9012__half_unet_only,landscape,9012,half_unet_only,control,6
+R15D,2,2,2,Mountains and lake; anatomy not applicable,landscape__9012__redpandav01,landscape,9012,redpandav01,control,6
+R16A,2,2,2,Mountains and lake; anatomy not applicable,landscape__3456__base,landscape,3456,base,control,6
+R16B,2,2,2,Mountains and lake; anatomy not applicable,landscape__3456__half_unet_only,landscape,3456,half_unet_only,control,6
+R16C,2,2,2,Mountains and lake; anatomy not applicable,landscape__3456__redpandav01,landscape,3456,redpandav01,control,6
+R16D,2,2,2,Mountains and lake; anatomy not applicable,landscape__3456__current,landscape,3456,current,control,6
+R17A,2,2,2,Bamboo and coherent visible face; body partly obscured,bamboo_no_trigger__9012__current,bamboo_no_trigger,9012,current,trigger_ablation,6
+R17B,2,2,2,Bamboo and coherent visible face; body partly obscured,bamboo_no_trigger__9012__redpandav01,bamboo_no_trigger,9012,redpandav01,trigger_ablation,6
+R17C,2,2,2,Bamboo and coherent visible face; body partly obscured,bamboo_no_trigger__9012__half_unet_only,bamboo_no_trigger,9012,half_unet_only,trigger_ablation,6
+R17D,2,2,2,Bamboo and coherent visible face; body partly obscured,bamboo_no_trigger__9012__base,bamboo_no_trigger,9012,base,trigger_ablation,6
+R18A,2,2,2,Single panda among bamboo; body obscured by leaves,bamboo_no_trigger__3456__redpandav01,bamboo_no_trigger,3456,redpandav01,trigger_ablation,6
+R18B,2,1,2,Twisted body and raised thick limb ending in hand-like digits,bamboo_no_trigger__3456__base,bamboo_no_trigger,3456,base,trigger_ablation,5
+R18C,2,1,2,Bamboo and panda; hand-like gripping fingers,bamboo_no_trigger__3456__current,bamboo_no_trigger,3456,current,trigger_ablation,5
+R18D,2,1,2,Bamboo and panda; pale hand-like gripping fingers,bamboo_no_trigger__3456__half_unet_only,bamboo_no_trigger,3456,half_unet_only,trigger_ablation,5
+R19A,1,1,2,Snow present; static hunched pose and oversized arched torso,snow_no_trigger__9012__base,snow_no_trigger,9012,base,trigger_ablation,4
+R19B,1,1,2,Snow present; static pose and dark limbs merging together,snow_no_trigger__9012__redpandav01,snow_no_trigger,9012,redpandav01,trigger_ablation,4
+R19C,1,1,2,Snow present; static hunched pose and oversized arched torso,snow_no_trigger__9012__half_unet_only,snow_no_trigger,9012,half_unet_only,trigger_ablation,4
+R19D,1,1,2,Perched on snowy branch; walking unclear and arched torso,snow_no_trigger__9012__current,snow_no_trigger,9012,current,trigger_ablation,4
+R20A,1,2,2,Snow present; crouched/sitting pose rather than clear walking,snow_no_trigger__3456__redpandav01,snow_no_trigger,3456,redpandav01,trigger_ablation,5
+R20B,2,2,2,Walking in snow; coherent visible limbs,snow_no_trigger__3456__base,snow_no_trigger,3456,base,trigger_ablation,6
+R20C,2,2,2,Walking in snow; coherent visible limbs,snow_no_trigger__3456__half_unet_only,snow_no_trigger,3456,half_unet_only,trigger_ablation,6
+R20D,2,2,1,Walking beneath branch; part of face cut by left edge,snow_no_trigger__3456__current,snow_no_trigger,3456,current,trigger_ablation,5

@@ -1,0 +1,63 @@
+{
+  "candidate": "half_unet_only",
+  "status": "improvement_not_confirmed",
+  "supported": false,
+  "decided_utc": "2026-11-12T09:02:19.789601+00:00",
+  "primary": {
+    "group": "primary",
+    "condition": "half_unet_only",
+    "n": 12,
+    "mean_clip": 0.3591584637761116,
+    "delta_base": -0.004384544988473256,
+    "wins_base": 3,
+    "ci_low_base": -0.010536253452301025,
+    "ci_high_base": 0.0013676459590593975,
+    "delta_current": -0.0031026129921277366,
+    "wins_current": 6,
+    "ci_low_current": -0.012087687849998474,
+    "ci_high_current": 0.004505549867947896
+  },
+  "control": {
+    "group": "control",
+    "condition": "half_unet_only",
+    "n": 4,
+    "mean_clip": 0.32402925193309784,
+    "delta_base": 0.00025785714387893677,
+    "wins_base": 2,
+    "ci_low_base": -0.00016495585441589355,
+    "ci_high_base": 0.0006806701421737671,
+    "delta_current": -0.0023418962955474854,
+    "wins_current": 1,
+    "ci_low_current": -0.0037569403648376465,
+    "ci_high_current": -0.0009268522262573242
+  },
+  "seed_results": [
+    {
+      "condition": "half_unet_only",
+      "seed": "9012",
+      "mean_clip": "0.36449623107910156",
+      "delta_current": "0.0072246938943862915",
+      "delta_base": "-0.0015541017055511475"
+    },
+    {
+      "condition": "half_unet_only",
+      "seed": "3456",
+      "mean_clip": "0.35382069647312164",
+      "delta_current": "-0.013429919878641764",
+      "delta_base": "-0.007214988271395366"
+    }
+  ],
+  "ratings_sha256": "8e23994d2e5514966c653f79f8d1c76295b427bf7817a00643c1774bfa649f5a",
+  "metrics_sha256": "69fc2828207f502807d1307ca6f38fa4c570eaacdf0b38e2864bc6f35a37c800",
+  "rationale": [
+    "Primary mean worse than both current and base; fails even a simple positive-mean rule, not only the conservative predeclared support rule.",
+    "Both seed deltas vs base negative; current deltas reverse signs.",
+    "No severe anatomy zero, but primary anatomy 1.333 vs current 1.5 and adherence 1.75 vs 1.833 do not support qualitative improvement.",
+    "External reference excluded from adoption decision."
+  ],
+  "weight_export": {
+    "performed": false,
+    "reason": "Frozen candidate not supported; do not label baked weights improved"
+  },
+  "next_experiment": "One retraining variant only; new seeds 13579/24680; no reselection of frozen candidate"
+}

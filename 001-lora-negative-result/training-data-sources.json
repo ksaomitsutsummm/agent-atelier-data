@@ -1,0 +1,61 @@
+{
+  "about": "Training data for the original red panda LoRA evaluated in this package.",
+  "dataset": {
+    "count": 8,
+    "caption": "rpanda, a photograph of a red panda",
+    "repeats": 5,
+    "images": [
+      {
+        "file": "img_00.jpg",
+        "source_title": "File:3 red pandas play-fighting.jpg",
+        "license": "CC BY-SA 3.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/3_red_pandas_play-fighting.jpg/1280px-3_red_pandas_play-fighting.jpg"
+      },
+      {
+        "file": "img_01.jpg",
+        "source_title": "File:Chinese Red Panda 523440542.jpg",
+        "license": "CC0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Chinese_Red_Panda_523440542.jpg/1280px-Chinese_Red_Panda_523440542.jpg"
+      },
+      {
+        "file": "img_02.jpg",
+        "source_title": "File:Curious Red Panda in Langtang National Park.jpg",
+        "license": "CC BY-SA 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Curious_Red_Panda_in_Langtang_National_Park.jpg/1280px-Curious_Red_Panda_in_Langtang_National_Park.jpg"
+      },
+      {
+        "file": "img_03.jpg",
+        "source_title": "File:Curious Red Panda Siblings in Langtang National Park.jpg",
+        "license": "CC BY-SA 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Curious_Red_Panda_Siblings_in_Langtang_National_Park.jpg/1280px-Curious_Red_Panda_Siblings_in_Langtang_National_Park.jpg"
+      },
+      {
+        "file": "img_04.jpg",
+        "source_title": "File:Red Panda Navigating the High Himalayan Canopy (Captured at the Himalayan Zoological Park, Sikkim.).jpg",
+        "license": "CC BY-SA 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Red_Panda_Navigating_the_High_Himalayan_Canopy_%28Captured_at_the_Himalayan_Zoological_Park%2C_Sikkim.%29.jpg/1280px-Red_Panda_Navigating_the_High_Himalayan_Canopy_%28Captured_at_the_Himalayan_Zoological_Park%2C_Sikkim.%29.jpg"
+      },
+      {
+        "file": "img_05.jpg",
+        "source_title": "File:Red Panda7.jpg",
+        "license": "CC BY-SA 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Red_Panda7.jpg/1280px-Red_Panda7.jpg"
+      },
+      {
+        "file": "img_06.jpg",
+        "source_title": "File:Панда АК.jpg",
+        "license": "CC BY-SA 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/%D0%9F%D0%B0%D0%BD%D0%B4%D0%B0_%D0%90%D0%9A.jpg/1280px-%D0%9F%D0%B0%D0%BD%D0%B4%D0%B0_%D0%90%D0%9A.jpg"
+      },
+      {
+        "file": "img_07.jpg",
+        "source_title": "File:“The Gaze Of Fire Fox\" Captured at the Himalayan Zoological Park, Sikkim.jpg",
+        "license": "CC BY-SA 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/%E2%80%9CThe_Gaze_Of_Fire_Fox%22_Captured_at_the_Himalayan_Zoological_Park%2C_Sikkim.jpg/1280px-%E2%80%9CThe_Gaze_Of_Fire_Fox%22_Captured_at_the_Himalayan_Zoological_Park%2C_Sikkim.jpg"
+      }
+    ]
+  },
+  "lora_file": "test_rpanda.safetensors",
+  "sd_scripts_commit": "cb70b96858477e716a2096292ab8aab433277f38",
+  "base_model_repo": "stable-diffusion-v1-5/stable-diffusion-v1-5"
+}
