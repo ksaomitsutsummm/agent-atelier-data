@@ -1,0 +1,63 @@
+{
+  "phase": "confirmation",
+  "candidate": "new",
+  "utc": "2026-11-13T10:27:44.809232+00:00",
+  "config_sha256": "f154e1a08df146aa7d8a7c7241ef04484a31d49983ada61ed3394ec0a0b15b34",
+  "new_sha256": "a526ff7f648bf536129f2418b4e97345fe31e7dfff58e0bc2f2fdcbeb36932a7",
+  "locked_files": {
+    "blind/ratings.csv": "ddcc81f9ac72ee90f71db7904630c784835c131dc3a8b95955ac21c196cc5af7",
+    "blind/ratings_lock.json": "231de64fcaa2d32e25e6b94f55f410e11cc92fd4c305baf0ffacfd2d5daf49d5",
+    "blind/key.json": "2aa4b1a7d0021cd5e1c79cbff4a6a8fe36668f97bb2e34649ea93c329ceae6a3",
+    "metrics.json": "e97d20022903d4a671d14ccf059e331285f71dcf08011f64cf94dea2f0eea236",
+    "summary.json": "d3ec1559719acf97bed6e410bf63f54d649d709309133a1c76f7814816dd1f31",
+    "by_seed.csv": "c42398f797ba99e07669b357ba00a7be9c02046734063f6714aab5e975601ae6",
+    "visual_ratings_unblinded.csv": "484fd04be0f67618f2366391ec3f6ae6b5ff56d91f296c048a53fd3ceae1af5c",
+    "visual_summary.csv": "887c08fbea262bf87b023e444a0b592fb0613a42ddb9f04f6078e59e151a8ce7"
+  },
+  "criteria": {
+    "primary_both_gt_001": true,
+    "each_seed_both_positive": true,
+    "control_current_gte_minus_01": true,
+    "no_systematic_severe_visual_regression": true
+  },
+  "supported": true,
+  "primary": {
+    "group": "primary",
+    "condition": "new",
+    "n": 12,
+    "mean_clip": 0.36568633466959,
+    "delta_base": 0.011458064119021097,
+    "wins_base": 11,
+    "ci_low_base": 0.006600397328535716,
+    "ci_high_base": 0.01665244996547699,
+    "delta_current": 0.015909790992736816,
+    "wins_current": 10,
+    "ci_low_current": 0.004346989095211029,
+    "ci_high_current": 0.02570255349079768
+  },
+  "control": {
+    "group": "control",
+    "condition": "new",
+    "n": 4,
+    "mean_clip": 0.3324846103787422,
+    "delta_base": 0.0010459795594215393,
+    "wins_base": 3,
+    "ci_low_base": -0.0001563727855682373,
+    "ci_high_base": 0.002248331904411316,
+    "delta_current": -0.002027750015258789,
+    "wins_current": 2,
+    "ci_low_current": -0.0031068623065948486,
+    "ci_high_current": -0.0009486377239227295
+  },
+  "severe_counts": {
+    "base": {
+      "severe_content_or_anatomy": 0,
+      "severe_quality": 0
+    },
+    "current": {
+      "severe_content_or_anatomy": 0,
+      "severe_quality": 0
+    }
+  },
+  "interpretation": "support under preregistered evaluation"
+}

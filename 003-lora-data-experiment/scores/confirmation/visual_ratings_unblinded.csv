@@ -1,0 +1,61 @@
+label,adherence,anatomy,quality,notes,id,prompt_id,seed,condition,group,total
+R01A,2,2,2,standing on log in bamboo; coherent,bamboo__161803__new,bamboo,161803,new,near_training,6
+R01B,2,1,2,climbing diagonal branch; lower body and tail merge into dark mass,bamboo__161803__current,bamboo,161803,current,near_training,5
+R01C,2,1,2,hugging bamboo stalk; front paw large and hand-like with long fingers,bamboo__161803__base,bamboo,161803,base,near_training,5
+R02A,2,2,2,resting paws and chin on mossy branch; coherent,bamboo__141421__current,bamboo,141421,current,near_training,6
+R02B,2,2,2,close face among bamboo eating leaves; coherent,bamboo__141421__new,bamboo,141421,new,near_training,6
+R02C,2,2,2,climbing stalk with claws on twig; coherent,bamboo__141421__base,bamboo,141421,base,near_training,6
+R03A,2,2,2,hugging diagonal branch; coherent,branch__161803__base,branch,161803,base,near_training,6
+R03B,2,2,2,climbing mossy branch; coherent,branch__161803__current,branch,161803,current,near_training,6
+R03C,2,2,2,draped along thin branch; coherent,branch__161803__new,branch,161803,new,near_training,6
+R04A,2,2,2,close-up lying on branch; coherent,branch__141421__base,branch,141421,base,near_training,6
+R04B,2,1,2,lying on branch; front paws merged into black mass,branch__141421__new,branch,141421,new,near_training,5
+R04C,2,2,2,draped resting on branch; coherent,branch__141421__current,branch,141421,current,near_training,6
+R05A,2,2,2,"profile close-up, tongue visible; coherent detailed fur",portrait__161803__current,portrait,161803,current,near_training,6
+R05B,2,2,2,profile close-up; coherent,portrait__161803__new,portrait,161803,new,near_training,6
+R05C,2,2,2,profile close-up; coherent,portrait__161803__base,portrait,161803,base,near_training,6
+R06A,2,2,2,three-quarter close-up with open mouth; coherent,portrait__141421__current,portrait,141421,current,near_training,6
+R06B,2,2,2,frontal close-up with tongue out; coherent,portrait__141421__new,portrait,141421,new,near_training,6
+R06C,2,1,2,extreme frontal close-up; wide grinning mouth looks unnatural,portrait__141421__base,portrait,141421,base,near_training,5
+R07A,2,2,2,walking in snow in profile; coherent,snow__161803__new,snow,161803,new,generalization,6
+R07B,2,2,2,standing in snow facing camera; coherent,snow__161803__base,snow,161803,base,generalization,6
+R07C,2,2,2,standing in snow with paw on stick; coherent,snow__161803__current,snow,161803,current,generalization,6
+R08A,2,2,2,walking in snow toward camera in snowfall; coherent,snow__141421__base,snow,141421,base,generalization,6
+R08B,2,2,2,walking in snow among mossy rocks; coherent,snow__141421__current,snow,141421,current,generalization,6
+R08C,2,2,1,walking on icy snow; partial second tail intrudes at right edge,snow__141421__new,snow,141421,new,generalization,5
+R09A,2,2,2,watercolor on branch with water behind; mask-like eye patches,watercolor__161803__current,watercolor,161803,current,generalization,6
+R09B,2,2,2,watercolor standing in shallow stream; coherent,watercolor__161803__base,watercolor,161803,base,generalization,6
+R09C,1,2,2,watercolor walking on rocks; no water visible,watercolor__161803__new,watercolor,161803,new,generalization,5
+R10A,1,2,2,watercolor on log; no river visible,watercolor__141421__new,watercolor,141421,new,generalization,5
+R10B,1,2,2,watercolor climbing on log; no river visible,watercolor__141421__current,watercolor,141421,current,generalization,5
+R10C,1,1,2,watercolor head close-up; no river; one eye pale and odd,watercolor__141421__base,watercolor,141421,base,generalization,4
+R11A,1,2,2,walking on sand dunes; no sunset or sea,beach__161803__new,beach,161803,new,generalization,5
+R11B,1,2,2,crouching on sand close-up; no sunset or sea,beach__161803__base,beach,161803,base,generalization,5
+R11C,1,2,2,on sand with twig; no sunset or sea,beach__161803__current,beach,161803,current,generalization,5
+R12A,2,2,2,lying on sand under vivid sunset sky; coherent,beach__141421__base,beach,141421,base,generalization,6
+R12B,2,2,2,standing on beach with sea and sunset; long bushy tail plausible,beach__141421__new,beach,141421,new,generalization,6
+R12C,2,1,2,lying on dune at sunset; draped paw shows exaggerated long claws,beach__141421__current,beach,141421,current,generalization,5
+R13A,2,2,2,standing in profile in flower garden; coherent,dog__161803__new,dog,161803,new,control,6
+R13B,2,2,2,standing three-quarter in garden; coherent,dog__161803__current,dog,161803,current,control,6
+R13C,2,2,2,standing in garden; coherent,dog__161803__base,dog,161803,base,control,6
+R14A,2,2,2,young golden standing among flowers; coherent,dog__141421__base,dog,141421,base,control,6
+R14B,2,2,2,sitting among pink flowers; coherent,dog__141421__current,dog,141421,current,control,6
+R14C,2,2,2,standing on garden path mid-step; coherent,dog__141421__new,dog,141421,new,control,6
+R15A,2,2,2,mountain lake scene; no structural breakdown,landscape__161803__new,landscape,161803,new,control,6
+R15B,2,2,2,mountain lake scene; no structural breakdown,landscape__161803__base,landscape,161803,base,control,6
+R15C,2,2,2,mountain lake scene with reflection; no structural breakdown,landscape__161803__current,landscape,161803,current,control,6
+R16A,2,2,2,valley lakes and peaks; no structural breakdown,landscape__141421__base,landscape,141421,base,control,6
+R16B,2,2,2,valley lakes and peaks; no structural breakdown,landscape__141421__new,landscape,141421,new,control,6
+R16C,2,2,2,valley lakes and peaks; no structural breakdown,landscape__141421__current,landscape,141421,current,control,6
+R17A,2,2,2,walking among bamboo leaves; striped tail visible; coherent,bamboo_no_trigger__161803__new,bamboo_no_trigger,161803,new,trigger_ablation,6
+R17B,2,1,2,hugging bamboo stalk; paw large and hand-like with long fingers,bamboo_no_trigger__161803__base,bamboo_no_trigger,161803,base,trigger_ablation,5
+R17C,2,2,2,sitting on diagonal branch in bamboo forest; coherent,bamboo_no_trigger__161803__current,bamboo_no_trigger,161803,current,trigger_ablation,6
+R18A,2,2,2,resting on mossy branch between stalks; coherent,bamboo_no_trigger__141421__current,bamboo_no_trigger,141421,current,trigger_ablation,6
+R18B,2,2,2,among bamboo stalks eating leaf; coherent,bamboo_no_trigger__141421__new,bamboo_no_trigger,141421,new,trigger_ablation,6
+R18C,2,2,2,close climbing pose by stalk with raised paw; coherent,bamboo_no_trigger__141421__base,bamboo_no_trigger,141421,base,trigger_ablation,6
+R19A,2,2,2,walking in snow in profile; coherent,snow_no_trigger__161803__new,snow_no_trigger,161803,new,trigger_ablation,6
+R19B,2,2,2,in snow three-quarter with open mouth; coherent,snow_no_trigger__161803__base,snow_no_trigger,161803,base,trigger_ablation,6
+R19C,2,2,2,in snow with paw on stick; coherent,snow_no_trigger__161803__current,snow_no_trigger,161803,current,trigger_ablation,6
+R20A,2,2,1,walking in snow toward camera; partial second tail at right edge,snow_no_trigger__141421__current,snow_no_trigger,141421,current,trigger_ablation,5
+R20B,2,2,2,walking in snow toward camera in snowfall; coherent,snow_no_trigger__141421__base,snow_no_trigger,141421,base,trigger_ablation,6
+R20C,2,2,2,walking on icy ground with raised paw; coherent,snow_no_trigger__141421__new,snow_no_trigger,141421,new,trigger_ablation,6

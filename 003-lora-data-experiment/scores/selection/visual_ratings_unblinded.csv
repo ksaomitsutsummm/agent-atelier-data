@@ -1,0 +1,61 @@
+label,adherence,anatomy,quality,notes,id,prompt_id,seed,condition,group,total
+R01A,2,2,2,red panda resting on branch in bamboo forest; coherent,bamboo__314159__base,bamboo,314159,base,near_training,6
+R01B,2,1,1,front leg fuses into bamboo stump; blending artifacts,bamboo__314159__new,bamboo,314159,new,near_training,4
+R01C,2,2,2,small subject on mossy branch; clean and coherent,bamboo__314159__current,bamboo,314159,current,near_training,6
+R02A,2,2,2,natural occlusion by bamboo trunk; face clear,bamboo__271828__current,bamboo,271828,current,near_training,6
+R02B,2,2,2,peeking between stalks eating leaves; coherent,bamboo__271828__base,bamboo,271828,base,near_training,6
+R02C,2,2,2,full body standing and eating; coherent,bamboo__271828__new,bamboo,271828,new,near_training,6
+R03A,2,2,2,draped over branch resting; coherent,branch__314159__new,branch,314159,new,near_training,6
+R03B,2,2,2,sitting on branch facing camera; coherent,branch__314159__current,branch,314159,current,near_training,6
+R03C,2,2,2,lying on branch facing camera; coherent,branch__314159__base,branch,314159,base,near_training,6
+R04A,2,2,2,close draped pose on trunk holding twig; coherent,branch__271828__base,branch,271828,base,near_training,6
+R04B,2,1,2,front paws mitten-like gripping a twig,branch__271828__current,branch,271828,current,near_training,5
+R04C,2,1,2,body stretched long along the branch,branch__271828__new,branch,271828,new,near_training,5
+R05A,2,2,2,profile close-up with detailed fur; mouth slightly open,portrait__314159__new,portrait,314159,new,near_training,6
+R05B,2,2,2,frontal extreme close-up; symmetric but coherent,portrait__314159__base,portrait,314159,base,near_training,6
+R05C,1,2,2,full-body shot in tree fork; not a face close-up,portrait__314159__current,portrait,314159,current,near_training,5
+R06A,2,1,2,close-up; mouth line slightly unnatural,portrait__271828__base,portrait,271828,base,near_training,5
+R06B,2,1,2,close-up; cheek markings exaggerated and stripe-like,portrait__271828__new,portrait,271828,new,near_training,5
+R06C,2,2,2,three-quarter close-up with open mouth; coherent,portrait__271828__current,portrait,271828,current,near_training,6
+R07A,1,1,2,standing in snow facing camera; raised paw has claw-like digits,snow__314159__base,snow,314159,base,generalization,4
+R07B,1,2,2,resting on snowy branch; not walking,snow__314159__current,snow,314159,current,generalization,5
+R07C,2,1,2,walking in snow in profile; head elongated and flattened,snow__314159__new,snow,314159,new,generalization,5
+R08A,2,2,2,walking on snowy rocks toward camera; coherent,snow__271828__base,snow,271828,base,generalization,6
+R08B,2,2,2,on partly melted snow path; coherent,snow__271828__new,snow,271828,new,generalization,6
+R08C,1,2,2,draped over snowy tree branch; not walking,snow__271828__current,snow,271828,current,generalization,5
+R09A,2,2,2,watercolor by river; coherent,watercolor__314159__base,watercolor,314159,base,generalization,6
+R09B,1,2,2,sleeping on branch; river not evident,watercolor__314159__current,watercolor,314159,current,generalization,5
+R09C,2,2,2,painterly walking beside river; bulky but coherent,watercolor__314159__new,watercolor,314159,new,generalization,6
+R10A,2,2,1,photo of a painting with dark border edges visible,watercolor__271828__new,watercolor,271828,new,generalization,5
+R10B,1,2,2,climbing in branches; river not visible,watercolor__271828__current,watercolor,271828,current,generalization,5
+R10C,2,0,2,body severely elongated like a weasel; river and style ok,watercolor__271828__base,watercolor,271828,base,generalization,4
+R11A,1,2,2,on sand but no sunset or sea,beach__314159__new,beach,314159,new,generalization,5
+R11B,0,2,2,on a tree branch with foliage; no beach at all,beach__314159__current,beach,314159,current,generalization,4
+R11C,1,2,2,on sand beside log; no sunset or sea,beach__314159__base,beach,314159,base,generalization,5
+R12A,2,2,2,wide sunset beach; small but coherent subject,beach__271828__new,beach,271828,new,generalization,6
+R12B,2,1,2,sunset beach ok; one front leg and paw look odd,beach__271828__base,beach,271828,base,generalization,5
+R12C,2,2,2,sunset beach facing camera; coherent,beach__271828__current,beach,271828,current,generalization,6
+R13A,2,1,2,play-bow on lawn; hindquarters and tail muddled,dog__314159__base,dog,314159,base,control,5
+R13B,2,1,2,crouching by gravel path; hind paw splayed oddly,dog__314159__new,dog,314159,new,control,5
+R13C,2,1,2,crouching head-down; odd loop artifact at rear,dog__314159__current,dog,314159,current,control,5
+R14A,2,1,2,sitting in garden; tail grossly elongated along ground,dog__271828__new,dog,271828,new,control,5
+R14B,2,2,2,sitting facing camera; coherent,dog__271828__base,dog,271828,base,control,6
+R14C,2,2,2,sitting facing camera; coherent,dog__271828__current,dog,271828,current,control,6
+R15A,2,2,2,mountain lake scene; no structural breakdown,landscape__314159__base,landscape,314159,base,control,6
+R15B,2,2,2,mountain lake scene; no structural breakdown,landscape__314159__new,landscape,314159,new,control,6
+R15C,2,2,2,mountain lake scene; no structural breakdown,landscape__314159__current,landscape,314159,current,control,6
+R16A,2,2,2,turquoise lake and peaks; no structural breakdown,landscape__271828__current,landscape,271828,current,control,6
+R16B,2,2,2,turquoise lake and peaks; no structural breakdown,landscape__271828__base,landscape,271828,base,control,6
+R16C,2,2,2,turquoise lake and peaks; no structural breakdown,landscape__271828__new,landscape,271828,new,control,6
+R17A,2,2,2,lying on thick bamboo pole; coherent,bamboo_no_trigger__314159__base,bamboo_no_trigger,314159,base,trigger_ablation,6
+R17B,2,2,2,walking profile on grass in bamboo forest; teeth visible,bamboo_no_trigger__314159__new,bamboo_no_trigger,314159,new,trigger_ablation,6
+R17C,2,2,2,on horizontal branch in bamboo forest; coherent,bamboo_no_trigger__314159__current,bamboo_no_trigger,314159,current,trigger_ablation,6
+R18A,2,1,2,climbing between stalks; raised limb ambiguous,bamboo_no_trigger__271828__current,bamboo_no_trigger,271828,current,trigger_ablation,5
+R18B,2,2,2,face between stalks eating leaf; coherent,bamboo_no_trigger__271828__base,bamboo_no_trigger,271828,base,trigger_ablation,6
+R18C,1,2,1,sparse bamboo setting; faint watermark-like text bottom right,bamboo_no_trigger__271828__new,bamboo_no_trigger,271828,new,trigger_ablation,4
+R19A,1,2,2,curled resting on snowy branch; not walking,snow_no_trigger__314159__current,snow_no_trigger,314159,current,trigger_ablation,5
+R19B,2,1,2,walking in snow profile; head elongated,snow_no_trigger__314159__new,snow_no_trigger,314159,new,trigger_ablation,5
+R19C,1,1,2,standing in snow; raised paw digits odd,snow_no_trigger__314159__base,snow_no_trigger,314159,base,trigger_ablation,4
+R20A,2,2,2,walking on snowy path toward camera; coherent,snow_no_trigger__271828__base,snow_no_trigger,271828,base,trigger_ablation,6
+R20B,2,2,2,walking on snowy slope among shrubs; coherent,snow_no_trigger__271828__current,snow_no_trigger,271828,current,trigger_ablation,6
+R20C,2,2,2,walking on icy path rear view; coherent,snow_no_trigger__271828__new,snow_no_trigger,271828,new,trigger_ablation,6

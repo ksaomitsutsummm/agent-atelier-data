@@ -1,0 +1,616 @@
+{
+  "spec": {
+    "model": "openai/clip-vit-base-patch32",
+    "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+    "transformers": "4.46.3",
+    "text_policy": "generation prompt with leading rpanda, removed; same semantic text across trigger pairs",
+    "metric": "cosine (unscaled, not logit or probability)"
+  },
+  "torch": "2.5.1+cu121",
+  "transformers": "4.46.3",
+  "device": "cpu",
+  "dtype": "float32",
+  "elapsed_seconds": 8.017548128999998,
+  "rows": [
+    {
+      "id": "bamboo__161803__base",
+      "prompt_id": "bamboo",
+      "seed": 161803,
+      "condition": "base",
+      "group": "near_training",
+      "eval_text": "a photograph of a red panda in a bamboo forest",
+      "png_sha256": "698bdd365e36c2a9e1405d1ccdadea6015080ba2aeb1fc752ef27616f2a794eb",
+      "clip_cosine": 0.31992095708847046
+    },
+    {
+      "id": "bamboo__161803__current",
+      "prompt_id": "bamboo",
+      "seed": 161803,
+      "condition": "current",
+      "group": "near_training",
+      "eval_text": "a photograph of a red panda in a bamboo forest",
+      "png_sha256": "596e4562c29dfe8a7eb33fe1a708451229bc37aa7a5f72ef6c0658a7c523bbd6",
+      "clip_cosine": 0.3686811625957489
+    },
+    {
+      "id": "bamboo__161803__new",
+      "prompt_id": "bamboo",
+      "seed": 161803,
+      "condition": "new",
+      "group": "near_training",
+      "eval_text": "a photograph of a red panda in a bamboo forest",
+      "png_sha256": "cce02fca2eaca529d51fed4a5147b4a68c4344850984ef845a030b518dafcf58",
+      "clip_cosine": 0.3508172035217285
+    },
+    {
+      "id": "bamboo__141421__base",
+      "prompt_id": "bamboo",
+      "seed": 141421,
+      "condition": "base",
+      "group": "near_training",
+      "eval_text": "a photograph of a red panda in a bamboo forest",
+      "png_sha256": "2f2198cc6866e055d11d3362643440d0d8a457892373f51e6f07b2d5988b9524",
+      "clip_cosine": 0.3316907286643982
+    },
+    {
+      "id": "bamboo__141421__current",
+      "prompt_id": "bamboo",
+      "seed": 141421,
+      "condition": "current",
+      "group": "near_training",
+      "eval_text": "a photograph of a red panda in a bamboo forest",
+      "png_sha256": "75aacd677eed69a72b3f3adc5495e54685905a25b55bd5b913f95db5557f657a",
+      "clip_cosine": 0.34562939405441284
+    },
+    {
+      "id": "bamboo__141421__new",
+      "prompt_id": "bamboo",
+      "seed": 141421,
+      "condition": "new",
+      "group": "near_training",
+      "eval_text": "a photograph of a red panda in a bamboo forest",
+      "png_sha256": "1f6f53fb00ce655c65b19b7b1670b26d3e82f60c745b93e63f2de79bf2036d88",
+      "clip_cosine": 0.3442020118236542
+    },
+    {
+      "id": "branch__161803__base",
+      "prompt_id": "branch",
+      "seed": 161803,
+      "condition": "base",
+      "group": "near_training",
+      "eval_text": "a photograph of a red panda resting on a tree branch",
+      "png_sha256": "38a6af4715fadab032e99ef88ec6ec64b4a4a0a4d1a185996221820d53a059dd",
+      "clip_cosine": 0.3551129102706909
+    },
+    {
+      "id": "branch__161803__current",
+      "prompt_id": "branch",
+      "seed": 161803,
+      "condition": "current",
+      "group": "near_training",
+      "eval_text": "a photograph of a red panda resting on a tree branch",
+      "png_sha256": "1f9fac1012840dac8b26ff5875c4acf6b372877f83a246d93ffc416adf16b96e",
+      "clip_cosine": 0.346547931432724
+    },
+    {
+      "id": "branch__161803__new",
+      "prompt_id": "branch",
+      "seed": 161803,
+      "condition": "new",
+      "group": "near_training",
+      "eval_text": "a photograph of a red panda resting on a tree branch",
+      "png_sha256": "d2b7a6063c548e390f4f6a1d017bfb4a20a0851048fdb884fd4ea854c7ef790c",
+      "clip_cosine": 0.3705950677394867
+    },
+    {
+      "id": "branch__141421__base",
+      "prompt_id": "branch",
+      "seed": 141421,
+      "condition": "base",
+      "group": "near_training",
+      "eval_text": "a photograph of a red panda resting on a tree branch",
+      "png_sha256": "ddb9d7b4a2a899bb708f7395f9c469d3e1011885c282d5ad960bc1d4d93d666c",
+      "clip_cosine": 0.34154435992240906
+    },
+    {
+      "id": "branch__141421__current",
+      "prompt_id": "branch",
+      "seed": 141421,
+      "condition": "current",
+      "group": "near_training",
+      "eval_text": "a photograph of a red panda resting on a tree branch",
+      "png_sha256": "80a52cca6a576455b9f1db99964c531c4c986c043050154f9bfd3d2d92a76531",
+      "clip_cosine": 0.34979555010795593
+    },
+    {
+      "id": "branch__141421__new",
+      "prompt_id": "branch",
+      "seed": 141421,
+      "condition": "new",
+      "group": "near_training",
+      "eval_text": "a photograph of a red panda resting on a tree branch",
+      "png_sha256": "d9d33c06463a4cb12cae3e659c4b3b57cce895e2aa177a4abf87ce34728ab23a",
+      "clip_cosine": 0.3526611924171448
+    },
+    {
+      "id": "portrait__161803__base",
+      "prompt_id": "portrait",
+      "seed": 161803,
+      "condition": "base",
+      "group": "near_training",
+      "eval_text": "a close-up photograph of a red panda face, detailed fur",
+      "png_sha256": "5d40233feb71783bb7206c0d40891d197b300a82e4e42b6cac994c539396350d",
+      "clip_cosine": 0.3366002142429352
+    },
+    {
+      "id": "portrait__161803__current",
+      "prompt_id": "portrait",
+      "seed": 161803,
+      "condition": "current",
+      "group": "near_training",
+      "eval_text": "a close-up photograph of a red panda face, detailed fur",
+      "png_sha256": "89d30fb0efcb79bbc46114eae39419ab8e7ad98f97b39d9339d017aed7d1a10b",
+      "clip_cosine": 0.33298128843307495
+    },
+    {
+      "id": "portrait__161803__new",
+      "prompt_id": "portrait",
+      "seed": 161803,
+      "condition": "new",
+      "group": "near_training",
+      "eval_text": "a close-up photograph of a red panda face, detailed fur",
+      "png_sha256": "04185bc79690b1250ffe2ac77e45126a488b6a99d1159c01ae6bcff26b024efd",
+      "clip_cosine": 0.34417587518692017
+    },
+    {
+      "id": "portrait__141421__base",
+      "prompt_id": "portrait",
+      "seed": 141421,
+      "condition": "base",
+      "group": "near_training",
+      "eval_text": "a close-up photograph of a red panda face, detailed fur",
+      "png_sha256": "260448401ef0e12d95d7864ce9b1e5e5913249b79c5c0fee21e5bb65b9ae9d8c",
+      "clip_cosine": 0.3499915599822998
+    },
+    {
+      "id": "portrait__141421__current",
+      "prompt_id": "portrait",
+      "seed": 141421,
+      "condition": "current",
+      "group": "near_training",
+      "eval_text": "a close-up photograph of a red panda face, detailed fur",
+      "png_sha256": "1fea62824bacb9c1c277adafea07b2c6092148daa5721525ad16565edc539534",
+      "clip_cosine": 0.3364294469356537
+    },
+    {
+      "id": "portrait__141421__new",
+      "prompt_id": "portrait",
+      "seed": 141421,
+      "condition": "new",
+      "group": "near_training",
+      "eval_text": "a close-up photograph of a red panda face, detailed fur",
+      "png_sha256": "c6d13ac92d92e4ce874d8b28ea4d417705a6f030c4b8083791b7afcf5870bb16",
+      "clip_cosine": 0.3515823483467102
+    },
+    {
+      "id": "snow__161803__base",
+      "prompt_id": "snow",
+      "seed": 161803,
+      "condition": "base",
+      "group": "generalization",
+      "eval_text": "a photograph of a red panda walking through snow",
+      "png_sha256": "0c40b0b69fa5518b7d34e34288b3c4ab1efaf3e1c916374817d86db53a9a2c63",
+      "clip_cosine": 0.34939107298851013
+    },
+    {
+      "id": "snow__161803__current",
+      "prompt_id": "snow",
+      "seed": 161803,
+      "condition": "current",
+      "group": "generalization",
+      "eval_text": "a photograph of a red panda walking through snow",
+      "png_sha256": "2d5ccbd4d1b4db9df75267ee2294b23e92b91767e2084f36a5a5d613bcdfc244",
+      "clip_cosine": 0.34687304496765137
+    },
+    {
+      "id": "snow__161803__new",
+      "prompt_id": "snow",
+      "seed": 161803,
+      "condition": "new",
+      "group": "generalization",
+      "eval_text": "a photograph of a red panda walking through snow",
+      "png_sha256": "7770fc040aa5fb09532510c1efe5ebe2e4f747eb27459edac5ced9c461a7ddde",
+      "clip_cosine": 0.3706439435482025
+    },
+    {
+      "id": "snow__141421__base",
+      "prompt_id": "snow",
+      "seed": 141421,
+      "condition": "base",
+      "group": "generalization",
+      "eval_text": "a photograph of a red panda walking through snow",
+      "png_sha256": "381bbbfae9c62700bc1de0cfebdc5a3c507229fd380f8900fd5cb391b5fc393d",
+      "clip_cosine": 0.3746480941772461
+    },
+    {
+      "id": "snow__141421__current",
+      "prompt_id": "snow",
+      "seed": 141421,
+      "condition": "current",
+      "group": "generalization",
+      "eval_text": "a photograph of a red panda walking through snow",
+      "png_sha256": "0a73c895006107e97dcb51ed0567f9570cb8b4e39e53e6e91789ef66cd2ce17f",
+      "clip_cosine": 0.37221455574035645
+    },
+    {
+      "id": "snow__141421__new",
+      "prompt_id": "snow",
+      "seed": 141421,
+      "condition": "new",
+      "group": "generalization",
+      "eval_text": "a photograph of a red panda walking through snow",
+      "png_sha256": "50d63385234af2bca9400d4ed0aaf75b2605be0b028dd96381613712c5fdc876",
+      "clip_cosine": 0.38661259412765503
+    },
+    {
+      "id": "watercolor__161803__base",
+      "prompt_id": "watercolor",
+      "seed": 161803,
+      "condition": "base",
+      "group": "generalization",
+      "eval_text": "a watercolor painting of a red panda beside a river",
+      "png_sha256": "dc2c88fa944b89217fb583e6b415611a5b854640519b9556da8c5631551dd931",
+      "clip_cosine": 0.3925478160381317
+    },
+    {
+      "id": "watercolor__161803__current",
+      "prompt_id": "watercolor",
+      "seed": 161803,
+      "condition": "current",
+      "group": "generalization",
+      "eval_text": "a watercolor painting of a red panda beside a river",
+      "png_sha256": "8884cdd71aff93cadc9866b9207d810532933317bb487db9c00fa84fce9cc894",
+      "clip_cosine": 0.3452293574810028
+    },
+    {
+      "id": "watercolor__161803__new",
+      "prompt_id": "watercolor",
+      "seed": 161803,
+      "condition": "new",
+      "group": "generalization",
+      "eval_text": "a watercolor painting of a red panda beside a river",
+      "png_sha256": "27cb9267cddc33b55d94acc510e9dd6946b9e60eded565cf60552e16bbe3af10",
+      "clip_cosine": 0.37516340613365173
+    },
+    {
+      "id": "watercolor__141421__base",
+      "prompt_id": "watercolor",
+      "seed": 141421,
+      "condition": "base",
+      "group": "generalization",
+      "eval_text": "a watercolor painting of a red panda beside a river",
+      "png_sha256": "65e259d7bab113b98096357f891ae2cc75258fa62a7770dd104a74070a381bc3",
+      "clip_cosine": 0.3500676453113556
+    },
+    {
+      "id": "watercolor__141421__current",
+      "prompt_id": "watercolor",
+      "seed": 141421,
+      "condition": "current",
+      "group": "generalization",
+      "eval_text": "a watercolor painting of a red panda beside a river",
+      "png_sha256": "b1813df2660f00f40783c3b41904eff79beed3f261dbbc6cb8f696d7cf55801e",
+      "clip_cosine": 0.355062335729599
+    },
+    {
+      "id": "watercolor__141421__new",
+      "prompt_id": "watercolor",
+      "seed": 141421,
+      "condition": "new",
+      "group": "generalization",
+      "eval_text": "a watercolor painting of a red panda beside a river",
+      "png_sha256": "d828258dd441e95230a49229b28ca6f308c66aef8a7399d06573c943b31aa304",
+      "clip_cosine": 0.3813406229019165
+    },
+    {
+      "id": "beach__161803__base",
+      "prompt_id": "beach",
+      "seed": 161803,
+      "condition": "base",
+      "group": "generalization",
+      "eval_text": "a photograph of a red panda on a sandy beach at sunset",
+      "png_sha256": "a0a258b33f01e0b0748da53e4428cebaf0fafa50c479c91ccf5938b1f21bd76b",
+      "clip_cosine": 0.3444291651248932
+    },
+    {
+      "id": "beach__161803__current",
+      "prompt_id": "beach",
+      "seed": 161803,
+      "condition": "current",
+      "group": "generalization",
+      "eval_text": "a photograph of a red panda on a sandy beach at sunset",
+      "png_sha256": "1327bb25e298d78b344c39a92da3690a263a02df57104cdb1d68f1ebe2c2eb82",
+      "clip_cosine": 0.3322008550167084
+    },
+    {
+      "id": "beach__161803__new",
+      "prompt_id": "beach",
+      "seed": 161803,
+      "condition": "new",
+      "group": "generalization",
+      "eval_text": "a photograph of a red panda on a sandy beach at sunset",
+      "png_sha256": "20f2ba4842ddadc8a9b26c05c382bc4d60b7583ea33292cf41340de0aec50942",
+      "clip_cosine": 0.34947019815444946
+    },
+    {
+      "id": "beach__141421__base",
+      "prompt_id": "beach",
+      "seed": 141421,
+      "condition": "base",
+      "group": "generalization",
+      "eval_text": "a photograph of a red panda on a sandy beach at sunset",
+      "png_sha256": "10e31353c0b300fab45748c7b1780c63fc082e21156f5da713957c98311d31f4",
+      "clip_cosine": 0.40479472279548645
+    },
+    {
+      "id": "beach__141421__current",
+      "prompt_id": "beach",
+      "seed": 141421,
+      "condition": "current",
+      "group": "generalization",
+      "eval_text": "a photograph of a red panda on a sandy beach at sunset",
+      "png_sha256": "57f96f05be9fb1c926d9f6ce377f3b6c1951d0339ff8fe9f8866c5bcb2d3d7f0",
+      "clip_cosine": 0.36567360162734985
+    },
+    {
+      "id": "beach__141421__new",
+      "prompt_id": "beach",
+      "seed": 141421,
+      "condition": "new",
+      "group": "generalization",
+      "eval_text": "a photograph of a red panda on a sandy beach at sunset",
+      "png_sha256": "ae72e49a09b581a13b92375b11d8c1b8c4be8a5315269a6765f80fa8faffb7a5",
+      "clip_cosine": 0.4109715521335602
+    },
+    {
+      "id": "dog__161803__base",
+      "prompt_id": "dog",
+      "seed": 161803,
+      "condition": "base",
+      "group": "control",
+      "eval_text": "a photograph of a golden retriever in a garden",
+      "png_sha256": "c26488b8d86116dbedb67160be91ef1638964fa4f99c57889eb2a0d9594fab77",
+      "clip_cosine": 0.3953991234302521
+    },
+    {
+      "id": "dog__161803__current",
+      "prompt_id": "dog",
+      "seed": 161803,
+      "condition": "current",
+      "group": "control",
+      "eval_text": "a photograph of a golden retriever in a garden",
+      "png_sha256": "3d74843b0abec917a361634cd23ff311eb25e23da07396cf81b9c757c7bf1732",
+      "clip_cosine": 0.39370396733283997
+    },
+    {
+      "id": "dog__161803__new",
+      "prompt_id": "dog",
+      "seed": 161803,
+      "condition": "new",
+      "group": "control",
+      "eval_text": "a photograph of a golden retriever in a garden",
+      "png_sha256": "35c5487075028650c584bd11b99ef98a03d1d3a0fcc3820da4cf53585992a58f",
+      "clip_cosine": 0.3970508575439453
+    },
+    {
+      "id": "dog__141421__base",
+      "prompt_id": "dog",
+      "seed": 141421,
+      "condition": "base",
+      "group": "control",
+      "eval_text": "a photograph of a golden retriever in a garden",
+      "png_sha256": "1cc6647c57a69bba7ab692401dd3f8df48fba90a1546c0da690d11adc85e6770",
+      "clip_cosine": 0.3650488257408142
+    },
+    {
+      "id": "dog__141421__current",
+      "prompt_id": "dog",
+      "seed": 141421,
+      "condition": "current",
+      "group": "control",
+      "eval_text": "a photograph of a golden retriever in a garden",
+      "png_sha256": "1b2dd4c5ebb811b8acec45509f42b86f3f6225d8aa5ba8773a5d1772ad4d0f4e",
+      "clip_cosine": 0.3731379210948944
+    },
+    {
+      "id": "dog__141421__new",
+      "prompt_id": "dog",
+      "seed": 141421,
+      "condition": "new",
+      "group": "control",
+      "eval_text": "a photograph of a golden retriever in a garden",
+      "png_sha256": "61487ac8dd8dcc94447aaa15a5460e7f8b7fc032d153602b09cc3808f3977851",
+      "clip_cosine": 0.3678937554359436
+    },
+    {
+      "id": "landscape__161803__base",
+      "prompt_id": "landscape",
+      "seed": 161803,
+      "condition": "base",
+      "group": "control",
+      "eval_text": "a photograph of a mountain landscape with a lake",
+      "png_sha256": "b82714668dff24a66cb850cd9de877eadc7873b6d7a1806b512454bc58928272",
+      "clip_cosine": 0.2799302637577057
+    },
+    {
+      "id": "landscape__161803__current",
+      "prompt_id": "landscape",
+      "seed": 161803,
+      "condition": "current",
+      "group": "control",
+      "eval_text": "a photograph of a mountain landscape with a lake",
+      "png_sha256": "ac008c76e295b969a01160118fbd8b9c92314b7a2977260ba349ef615168f65c",
+      "clip_cosine": 0.2786961793899536
+    },
+    {
+      "id": "landscape__161803__new",
+      "prompt_id": "landscape",
+      "seed": 161803,
+      "condition": "new",
+      "group": "control",
+      "eval_text": "a photograph of a mountain landscape with a lake",
+      "png_sha256": "26631cc1a0a1b987b3a3b4ef0eda8988585a54945f8bbdbbb093e211c5587811",
+      "clip_cosine": 0.2830908000469208
+    },
+    {
+      "id": "landscape__141421__base",
+      "prompt_id": "landscape",
+      "seed": 141421,
+      "condition": "base",
+      "group": "control",
+      "eval_text": "a photograph of a mountain landscape with a lake",
+      "png_sha256": "6bd455a71f86cfec82a804904f684338d2c5b00cfbc6fbd53ea892b6261df988",
+      "clip_cosine": 0.28537631034851074
+    },
+    {
+      "id": "landscape__141421__current",
+      "prompt_id": "landscape",
+      "seed": 141421,
+      "condition": "current",
+      "group": "control",
+      "eval_text": "a photograph of a mountain landscape with a lake",
+      "png_sha256": "07735c29fa96c8154f52eb25f0d957b411830cece262edef0bb2158627c2ddfe",
+      "clip_cosine": 0.29251137375831604
+    },
+    {
+      "id": "landscape__141421__new",
+      "prompt_id": "landscape",
+      "seed": 141421,
+      "condition": "new",
+      "group": "control",
+      "eval_text": "a photograph of a mountain landscape with a lake",
+      "png_sha256": "46039589c6f78e1be84b2865941ecb93ce9d6caa70b51fd4fe6be2be3ee800eb",
+      "clip_cosine": 0.2819030284881592
+    },
+    {
+      "id": "bamboo_no_trigger__161803__base",
+      "prompt_id": "bamboo_no_trigger",
+      "seed": 161803,
+      "condition": "base",
+      "group": "trigger_ablation",
+      "eval_text": "a photograph of a red panda in a bamboo forest",
+      "png_sha256": "25a22599e52bb3f16f7350b1ac98f23fa66de7953c681b1094b90f0bde315b4a",
+      "clip_cosine": 0.34085890650749207
+    },
+    {
+      "id": "bamboo_no_trigger__161803__current",
+      "prompt_id": "bamboo_no_trigger",
+      "seed": 161803,
+      "condition": "current",
+      "group": "trigger_ablation",
+      "eval_text": "a photograph of a red panda in a bamboo forest",
+      "png_sha256": "2305c164617ba48d03b18601938f6341101b321c2655b6c42f4f92ffc8bf3d44",
+      "clip_cosine": 0.32125481963157654
+    },
+    {
+      "id": "bamboo_no_trigger__161803__new",
+      "prompt_id": "bamboo_no_trigger",
+      "seed": 161803,
+      "condition": "new",
+      "group": "trigger_ablation",
+      "eval_text": "a photograph of a red panda in a bamboo forest",
+      "png_sha256": "cec04ff1cb328922215c81ecbe572991467892be26a5d1b6150219f46e97a342",
+      "clip_cosine": 0.34627002477645874
+    },
+    {
+      "id": "bamboo_no_trigger__141421__base",
+      "prompt_id": "bamboo_no_trigger",
+      "seed": 141421,
+      "condition": "base",
+      "group": "trigger_ablation",
+      "eval_text": "a photograph of a red panda in a bamboo forest",
+      "png_sha256": "11adc586912fac971ccdf58ebfb6c9818bd834902849148de8e7df8ed736deeb",
+      "clip_cosine": 0.34776902198791504
+    },
+    {
+      "id": "bamboo_no_trigger__141421__current",
+      "prompt_id": "bamboo_no_trigger",
+      "seed": 141421,
+      "condition": "current",
+      "group": "trigger_ablation",
+      "eval_text": "a photograph of a red panda in a bamboo forest",
+      "png_sha256": "da3b6e86ca42ebde43e69fa8b3b00446e99d989f3930884fe2873c03098c381f",
+      "clip_cosine": 0.3529116213321686
+    },
+    {
+      "id": "bamboo_no_trigger__141421__new",
+      "prompt_id": "bamboo_no_trigger",
+      "seed": 141421,
+      "condition": "new",
+      "group": "trigger_ablation",
+      "eval_text": "a photograph of a red panda in a bamboo forest",
+      "png_sha256": "07cef61270693a8451957d5f3f836b6f0cdeb833efbdbbf046e5012a7ad532a1",
+      "clip_cosine": 0.3636641502380371
+    },
+    {
+      "id": "snow_no_trigger__161803__base",
+      "prompt_id": "snow_no_trigger",
+      "seed": 161803,
+      "condition": "base",
+      "group": "trigger_ablation",
+      "eval_text": "a photograph of a red panda walking through snow",
+      "png_sha256": "b2ac889364e7a6c148a365974938b4d08e22476f22559cddbadb945a147a908c",
+      "clip_cosine": 0.358317494392395
+    },
+    {
+      "id": "snow_no_trigger__161803__current",
+      "prompt_id": "snow_no_trigger",
+      "seed": 161803,
+      "condition": "current",
+      "group": "trigger_ablation",
+      "eval_text": "a photograph of a red panda walking through snow",
+      "png_sha256": "22275ad60f6f39e1558b74aa72fbf3e09e390d46ae5e9a8e9db8500da508b429",
+      "clip_cosine": 0.35147929191589355
+    },
+    {
+      "id": "snow_no_trigger__161803__new",
+      "prompt_id": "snow_no_trigger",
+      "seed": 161803,
+      "condition": "new",
+      "group": "trigger_ablation",
+      "eval_text": "a photograph of a red panda walking through snow",
+      "png_sha256": "f9195fa6bfaf4418975266cfaa72eb75456b97b5929d8c6ec47d8afd5f60c709",
+      "clip_cosine": 0.35851195454597473
+    },
+    {
+      "id": "snow_no_trigger__141421__base",
+      "prompt_id": "snow_no_trigger",
+      "seed": 141421,
+      "condition": "base",
+      "group": "trigger_ablation",
+      "eval_text": "a photograph of a red panda walking through snow",
+      "png_sha256": "278074843e56f3ed5e29250ac3be942279c7d16ad6087f1a50e8deab3002ab8a",
+      "clip_cosine": 0.3799818754196167
+    },
+    {
+      "id": "snow_no_trigger__141421__current",
+      "prompt_id": "snow_no_trigger",
+      "seed": 141421,
+      "condition": "current",
+      "group": "trigger_ablation",
+      "eval_text": "a photograph of a red panda walking through snow",
+      "png_sha256": "88273331bc78f54c38bc98af61d329798b13d2121b69c2bfd349a2e2d8534d3b",
+      "clip_cosine": 0.3878934383392334
+    },
+    {
+      "id": "snow_no_trigger__141421__new",
+      "prompt_id": "snow_no_trigger",
+      "seed": 141421,
+      "condition": "new",
+      "group": "trigger_ablation",
+      "eval_text": "a photograph of a red panda walking through snow",
+      "png_sha256": "fdfdfb2cb11b9b7c09ee2a3dfb30bc017fa97b26f0d9d52f3e82b9100e9e9dd6",
+      "clip_cosine": 0.3846970200538635
+    }
+  ]
+}

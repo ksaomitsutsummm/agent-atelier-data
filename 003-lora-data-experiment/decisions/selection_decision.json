@@ -1,0 +1,63 @@
+{
+  "phase": "selection",
+  "candidate": "new",
+  "utc": "2026-11-13T10:19:45.240797+00:00",
+  "config_sha256": "f154e1a08df146aa7d8a7c7241ef04484a31d49983ada61ed3394ec0a0b15b34",
+  "new_sha256": "a526ff7f648bf536129f2418b4e97345fe31e7dfff58e0bc2f2fdcbeb36932a7",
+  "locked_files": {
+    "blind/ratings.csv": "3fa94acdbea07dccd83ed2f815a2a86581e3c2ca2a836cacae555f77cc19ddc1",
+    "blind/ratings_lock.json": "84b788bd7697411adaa773c130afdabf63b88cb2a8650967035d036ef1f5dd35",
+    "blind/key.json": "c7e3bfcbeb6fbceefcb5eea133c6dfc83f169aac02001a9857f7c03d96528f8c",
+    "metrics.json": "c4c7712ff00485d13c390ba83fda0da31bcdea5547ca9d420fecacf4bddd467a",
+    "summary.json": "e18731ccb1542c44b5b5221529824d867af6190e6b92bbabf218568958c35fee",
+    "by_seed.csv": "a9186e0e3f5c70ea0178556b76e2be65168fa9826f041cfaa80457711c2108b9",
+    "visual_ratings_unblinded.csv": "a57ef27d4321a658c64343165a58a7e8a795ff3132e6fc5117a48c49312a77c9",
+    "visual_summary.csv": "03216d6dac9b4e20e95b41e5a93efe3a098f6c85421e58836d4359bf5bcc7674"
+  },
+  "criteria": {
+    "primary_both_gt_001": false,
+    "each_seed_both_positive": false,
+    "control_current_gte_minus_01": true,
+    "no_systematic_severe_visual_regression": true
+  },
+  "supported": null,
+  "primary": {
+    "group": "primary",
+    "condition": "new",
+    "n": 12,
+    "mean_clip": 0.35019764055808383,
+    "delta_base": -0.00745076189438502,
+    "wins_base": 2,
+    "ci_low_base": -0.01442048450311025,
+    "ci_high_base": -0.0011020774642626445,
+    "delta_current": 0.004959369699160258,
+    "wins_current": 5,
+    "ci_low_current": -0.005662605166435242,
+    "ci_high_current": 0.01697836071252823
+  },
+  "control": {
+    "group": "control",
+    "condition": "new",
+    "n": 4,
+    "mean_clip": 0.3164771720767021,
+    "delta_base": -0.003400355577468872,
+    "wins_base": 2,
+    "ci_low_base": -0.003673344850540161,
+    "ci_high_base": -0.003127366304397583,
+    "delta_current": -0.0020041614770889282,
+    "wins_current": 1,
+    "ci_low_current": -0.0028189122676849365,
+    "ci_high_current": -0.00118941068649292
+  },
+  "severe_counts": {
+    "base": {
+      "severe_content_or_anatomy": 0,
+      "severe_quality": 0
+    },
+    "current": {
+      "severe_content_or_anatomy": 0,
+      "severe_quality": 0
+    }
+  },
+  "interpretation": "single candidate frozen regardless of selection performance; not a confirmation claim"
+}

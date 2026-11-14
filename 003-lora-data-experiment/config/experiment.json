@@ -1,0 +1,163 @@
+{
+  "training": {
+    "sd_scripts_commit": "cb70b96858477e716a2096292ab8aab433277f38",
+    "checkpoint_sha256": "6ce0161689b3853acaa03779ec93eafe75a02f4ced659bee03f50797806fa2fa",
+    "count": 24,
+    "repeats": 5,
+    "primary_categories": {
+      "ground_motion": 4,
+      "climbing": 4,
+      "feeding": 4,
+      "portrait": 4,
+      "ground_full_body": 4,
+      "multiple": 4
+    },
+    "minimum_authors": 6,
+    "maximum_per_author": 4,
+    "minimum_full_body": 8,
+    "flags": [
+      "--resolution=512,512",
+      "--network_module=networks.lora",
+      "--network_dim=8",
+      "--network_alpha=8",
+      "--learning_rate=1e-4",
+      "--lr_scheduler=constant",
+      "--optimizer_type=adamw",
+      "--max_train_steps=180",
+      "--train_batch_size=2",
+      "--gradient_accumulation_steps=1",
+      "--mixed_precision=fp16",
+      "--save_model_as=safetensors",
+      "--save_precision=fp16",
+      "--cache_latents",
+      "--caption_extension=.txt",
+      "--shuffle_caption",
+      "--keep_tokens=1",
+      "--sdpa",
+      "--seed=42",
+      "--max_data_loader_n_workers=2"
+    ],
+    "output_name": "rpanda_data24",
+    "protocol_sha256": "53f5456d98ce6c1ab46472f640490263587726104292bd7cd8a13ba921f65e07"
+  },
+  "evaluation": {
+    "checkpoint": "v1-5-pruned-emaonly.safetensors",
+    "generation": {
+      "width": 512,
+      "height": 512,
+      "steps": 20,
+      "cfg": 7.0,
+      "sampler_name": "euler",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "negative": "blurry, low quality, distorted"
+    },
+    "clip": {
+      "model": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+      "transformers": "4.46.3",
+      "text_policy": "generation prompt with leading rpanda, removed; same semantic text across trigger pairs",
+      "metric": "cosine (unscaled, not logit or probability)"
+    },
+    "prompts": [
+      {
+        "id": "bamboo",
+        "text": "rpanda, a photograph of a red panda in a bamboo forest",
+        "group": "near_training",
+        "eval_text": "a photograph of a red panda in a bamboo forest"
+      },
+      {
+        "id": "branch",
+        "text": "rpanda, a photograph of a red panda resting on a tree branch",
+        "group": "near_training",
+        "eval_text": "a photograph of a red panda resting on a tree branch"
+      },
+      {
+        "id": "portrait",
+        "text": "rpanda, a close-up photograph of a red panda face, detailed fur",
+        "group": "near_training",
+        "eval_text": "a close-up photograph of a red panda face, detailed fur"
+      },
+      {
+        "id": "snow",
+        "text": "rpanda, a photograph of a red panda walking through snow",
+        "group": "generalization",
+        "eval_text": "a photograph of a red panda walking through snow"
+      },
+      {
+        "id": "watercolor",
+        "text": "rpanda, a watercolor painting of a red panda beside a river",
+        "group": "generalization",
+        "eval_text": "a watercolor painting of a red panda beside a river"
+      },
+      {
+        "id": "beach",
+        "text": "rpanda, a photograph of a red panda on a sandy beach at sunset",
+        "group": "generalization",
+        "eval_text": "a photograph of a red panda on a sandy beach at sunset"
+      },
+      {
+        "id": "dog",
+        "text": "a photograph of a golden retriever in a garden",
+        "group": "control",
+        "eval_text": "a photograph of a golden retriever in a garden"
+      },
+      {
+        "id": "landscape",
+        "text": "a photograph of a mountain landscape with a lake",
+        "group": "control",
+        "eval_text": "a photograph of a mountain landscape with a lake"
+      },
+      {
+        "id": "bamboo_no_trigger",
+        "text": "a photograph of a red panda in a bamboo forest",
+        "group": "trigger_ablation",
+        "eval_text": "a photograph of a red panda in a bamboo forest"
+      },
+      {
+        "id": "snow_no_trigger",
+        "text": "a photograph of a red panda walking through snow",
+        "group": "trigger_ablation",
+        "eval_text": "a photograph of a red panda walking through snow"
+      }
+    ],
+    "protocol_sha256": "53f5456d98ce6c1ab46472f640490263587726104292bd7cd8a13ba921f65e07",
+    "seeds": {
+      "selection": [
+        314159,
+        271828
+      ],
+      "confirmation": [
+        161803,
+        141421
+      ]
+    },
+    "conditions": {
+      "base": null,
+      "current": {
+        "file": "test_rpanda.safetensors",
+        "sha256": "98c024391dd8e76fa6c854baf69bed04e0d627dce82ba5674d1f81d91808532b",
+        "strength_model": 1.0,
+        "strength_clip": 1.0
+      },
+      "new": {
+        "file": "rpanda_data24.safetensors",
+        "sha256": null,
+        "strength_model": 1.0,
+        "strength_clip": 1.0
+      }
+    },
+    "checkpoint_sha256": "6ce0161689b3853acaa03779ec93eafe75a02f4ced659bee03f50797806fa2fa",
+    "comfyui_commit": "265adad858e1f31b66cd3523a02b16f5d34ced52",
+    "primary_groups": [
+      "near_training",
+      "generalization"
+    ],
+    "support": {
+      "primary_delta_gt": 0.001,
+      "per_seed_delta_gt": 0.0,
+      "control_current_delta_gte": -0.01,
+      "severe_regression_cases_gte": 2
+    }
+  }
+}

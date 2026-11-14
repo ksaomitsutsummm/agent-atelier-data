@@ -1,0 +1,13 @@
+group,condition,n,mean_adherence,mean_anatomy,mean_quality,mean_total,severe_anatomy_count
+all,base,20,1.9,1.8,2,5.7,0
+all,current,20,1.9,1.9,1.95,5.75,0
+all,new,20,1.85,1.95,1.95,5.75,0
+primary,base,12,1.8333333333333333,1.75,2,5.583333333333333,0
+primary,current,12,1.8333333333333333,1.8333333333333333,2,5.666666666666667,0
+primary,new,12,1.75,1.9166666666666667,1.9166666666666667,5.583333333333333,0
+control,base,4,2,2,2,6,0
+control,current,4,2,2,2,6,0
+control,new,4,2,2,2,6,0
+trigger_ablation,base,4,2,1.75,2,5.75,0
+trigger_ablation,current,4,2,2,1.75,5.75,0
+trigger_ablation,new,4,2,2,2,6,0

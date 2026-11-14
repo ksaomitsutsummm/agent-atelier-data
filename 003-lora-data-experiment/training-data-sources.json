@@ -1,0 +1,274 @@
+{
+  "about": "Training photographs for the rebuilt red panda LoRA (new) evaluated in this package. All 24 images are from Wikimedia Commons under the Creative Commons licenses listed per image. The contact sheet training-data-contact-sheet.jpg shows the processed 512x512 training images, numbered to match the order below.",
+  "dataset": {
+    "count": 24,
+    "source": "Wikimedia Commons",
+    "categories": "6 composition categories x 4 images (ground motion, climbing, feeding, portrait, ground full body, multiple animals)",
+    "images": [
+      {
+        "file": "01_ground_motion.jpg",
+        "category": "ground_motion",
+        "source_title": "File:The Red Pandas in Padmaja Naidu Himalayan Zoological Park (Darjeeling Zoo) 34.jpg",
+        "author": "Pinakpani",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:The_Red_Pandas_in_Padmaja_Naidu_Himalayan_Zoological_Park_(Darjeeling_Zoo)_34.jpg",
+        "caption": "rpanda, a photograph of a red panda walking through green ground plants, side view",
+        "processed_sha256": "287236bde8fa421312010aeb3c0457ee6f0f9ce20e41fed83aec762a6b0500cc"
+      },
+      {
+        "file": "02_ground_motion.jpg",
+        "category": "ground_motion",
+        "source_title": "File:Red Panda in Taronga Zoo (1).jpg",
+        "author": "Coekon",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Red_Panda_in_Taronga_Zoo_(1).jpg",
+        "caption": "rpanda, a photograph of a red panda walking across a leaf covered enclosure, rocks and trees in the background",
+        "processed_sha256": "181bfe7d02a53a3c5a1af99caf74f77d12e8d04ee975b7f0e8d84f1e30053f69"
+      },
+      {
+        "file": "03_ground_motion.jpg",
+        "category": "ground_motion",
+        "source_title": "File:Ailurus fulgens (Panda roux) - 128.jpg",
+        "author": "Another one of my pictures:\n\n\n\nThis photograph was taken by Medium69 (William Crochot) and released under the license stated below. You are free to use it for any purpose as long as you credit the author (William Crochot), the Source (Wikimedia Commons) and the license (CC-BY-SA 4.0) in close relation to the image.\n\n\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source RAW. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Ailurus_fulgens_(Panda_roux)_-_128.jpg",
+        "caption": "rpanda, a photograph of a red panda moving through tall grass, head lowered",
+        "processed_sha256": "a0cc4f3b085700a778c963539a1bb1ae25ce404d1f0208d0f365c43943b0d16f"
+      },
+      {
+        "file": "04_ground_motion.jpg",
+        "category": "ground_motion",
+        "source_title": "File:Ailurus fulgens Cerza.JPG",
+        "author": "Gzzz",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Ailurus_fulgens_Cerza.JPG",
+        "caption": "rpanda, a photograph of a red panda walking on grass, looking toward the camera",
+        "processed_sha256": "fed028030244f7cd26b7f35baba5516742c255b58d01f3330cd91f55a3d2dba0"
+      },
+      {
+        "file": "05_climbing.jpg",
+        "category": "climbing",
+        "source_title": "File:Climbing Red Panda (138253371).jpeg",
+        "author": "Matthias",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Climbing_Red_Panda_(138253371).jpeg",
+        "caption": "rpanda, a photograph of a red panda descending a sloping tree trunk, head down",
+        "processed_sha256": "6c63a170cb2d994519b8af865820722c79e9d7753cfbe141156d9b15b5792d80"
+      },
+      {
+        "file": "06_climbing.jpg",
+        "category": "climbing",
+        "source_title": "File:Red Panda (37968426134).jpg",
+        "author": "Mathias Appel",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Red_Panda_(37968426134).jpg",
+        "caption": "rpanda, a photograph of a red panda climbing down a forked tree, side view",
+        "processed_sha256": "dadc985a92df3180a57218611ab57156e0fb2336696008463bd4fc24cc2795d7"
+      },
+      {
+        "file": "07_climbing.jpg",
+        "category": "climbing",
+        "source_title": "File:Taronga zoo, Sydney, Australia (259859861).jpg",
+        "author": "pelican from Tokyo, Japan",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Taronga_zoo,_Sydney,_Australia_(259859861).jpg",
+        "caption": "rpanda, a photograph of a red panda climbing down a wooden branch beside a tree trunk",
+        "processed_sha256": "210309fa6f9eb47e35d9ecca92d911cffd9db592f61604cc288b6e22d302f1f2"
+      },
+      {
+        "file": "08_climbing.jpg",
+        "category": "climbing",
+        "source_title": "File:Red-Panda-Melbourne-Zoo-20070224-069.jpg",
+        "author": "Gary Houston",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Red-Panda-Melbourne-Zoo-20070224-069.jpg",
+        "caption": "rpanda, a photograph of a red panda climbing a tree trunk, body stretched upward",
+        "processed_sha256": "db224339c39ccf38900006172224d8a905acc606168da3158c61dd92f4d11b3e"
+      },
+      {
+        "file": "09_feeding.jpg",
+        "category": "feeding",
+        "source_title": "File:Ailurus fulgens eating.JPG",
+        "author": "Ericj",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Ailurus_fulgens_eating.JPG",
+        "caption": "rpanda, a photograph of a red panda eating bamboo leaves among branches",
+        "processed_sha256": "66e2514dba3a305836855be37f4850ef3eb62aa4aee7db09f72e21086fc1ab73"
+      },
+      {
+        "file": "10_feeding.jpg",
+        "category": "feeding",
+        "source_title": "File:Lesser Panda eating.jpg",
+        "author": "Tom Raftery from Seville, Spain",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Lesser_Panda_eating.jpg",
+        "caption": "rpanda, a photograph of a red panda eating green bamboo leaves, seated beside tree trunks",
+        "processed_sha256": "ef675c062fb585c08aaab731f4b05791d0599f5c99cdd92b626e247e26217d82"
+      },
+      {
+        "file": "11_feeding.jpg",
+        "category": "feeding",
+        "source_title": "File:Red Panda eating.jpg",
+        "author": "Kuribo from Osaka, Japan",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Red_Panda_eating.jpg",
+        "caption": "rpanda, a photograph of a red panda holding a pale piece of food in its paws and eating",
+        "processed_sha256": "f81b05d332987e58edc8d15e3a1062303d2cd4172ad3465a37ff842c3ac679da"
+      },
+      {
+        "file": "12_feeding.jpg",
+        "category": "feeding",
+        "source_title": "File:Red panda eating bamboo.jpg",
+        "author": "saska01",
+        "license": "CC BY 2.5",
+        "license_url": "https://creativecommons.org/licenses/by/2.5",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Red_panda_eating_bamboo.jpg",
+        "caption": "rpanda, a photograph of a red panda sitting on grass and eating bamboo, side view",
+        "processed_sha256": "e0c800fd9f698cc54ce72a164b035d3051f1d85e98aa4b1f014d7a0e731afe05"
+      },
+      {
+        "file": "13_portrait.jpg",
+        "category": "portrait",
+        "source_title": "File:Face of a red panda (8087935024).jpg",
+        "author": "flowcomm",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Face_of_a_red_panda_(8087935024).jpg",
+        "caption": "rpanda, a photograph of a close view of a red panda face among green bamboo leaves",
+        "processed_sha256": "8067398affecb1e41fbc330f434b0a2eb86f406cd049d70a99f3c01c73d1cbe3"
+      },
+      {
+        "file": "14_portrait.jpg",
+        "category": "portrait",
+        "source_title": "File:Face of a red panda (Ailurus fulgens) - 20080702.jpg",
+        "author": "Lisa Cyr from Calgary, Canada",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Face_of_a_red_panda_(Ailurus_fulgens)_-_20080702.jpg",
+        "caption": "rpanda, a photograph of a close view of a red panda face looking to the side, mouth open",
+        "processed_sha256": "74404ae3c1ee4bd2956678a410764b696a1b363a2b262c7d44af91beb79191bb"
+      },
+      {
+        "file": "15_portrait.jpg",
+        "category": "portrait",
+        "source_title": "File:Red Panda Portrait (31625024560).jpg",
+        "author": "Mathias Appel",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Red_Panda_Portrait_(31625024560).jpg",
+        "caption": "rpanda, a photograph of a red panda face and upper body, green background",
+        "processed_sha256": "39e1e1d46c32128da6a46b7fc9feca3647ec71dc9ed893a60d281898e247087f"
+      },
+      {
+        "file": "16_portrait.jpg",
+        "category": "portrait",
+        "source_title": "File:Ailurus fulgens - Karlsruhe Zoo 01.jpg",
+        "author": "H. Zell",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Ailurus_fulgens_-_Karlsruhe_Zoo_01.jpg",
+        "caption": "rpanda, a photograph of a red panda face and upper body beside a tree trunk, looking to the side",
+        "processed_sha256": "e7f1b02317b7481b4d6889f85453d4e871d310938b527dcf3aba4fea0c2a99dd"
+      },
+      {
+        "file": "17_ground_full_body.jpg",
+        "category": "ground_full_body",
+        "source_title": "File:Ailurus fulgens-hangzhou2.JPG",
+        "author": "Shizhao",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Ailurus_fulgens-hangzhou2.JPG",
+        "caption": "rpanda, a photograph of a red panda standing on a dirt path among green ground plants, full body",
+        "processed_sha256": "3f85d8fa90ceab1b9f3e99c3e1353b42c60af502e8c584080c89bdceb4f65515"
+      },
+      {
+        "file": "18_ground_full_body.jpg",
+        "category": "ground_full_body",
+        "source_title": "File:Futa red panda Chiba Zoological Park 2010 04.jpg",
+        "author": "KQuhen",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Futa_red_panda_Chiba_Zoological_Park_2010_04.jpg",
+        "caption": "rpanda, a photograph of a red panda standing upright on the ground, full body, stones in the background",
+        "processed_sha256": "c96ae8ba49ebc9fbf3c077b5670075d7471d18163f0ffa4c27bca36aee0585da"
+      },
+      {
+        "file": "19_ground_full_body.jpg",
+        "category": "ground_full_body",
+        "source_title": "File:Lesser panda standing.jpg",
+        "author": "DANIEL WONG from Newark, CA, USA",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Lesser_panda_standing.jpg",
+        "caption": "rpanda, a photograph of a red panda standing upright on a large rock, full body, fence in the background",
+        "processed_sha256": "a5cc6cccdf64380e2de4a68407b53b8988bafa65bf8181236fef2ce9f956f618"
+      },
+      {
+        "file": "20_ground_full_body.jpg",
+        "category": "ground_full_body",
+        "source_title": "File:Red Panda 01.jpg",
+        "author": "Cody Hough",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Red_Panda_01.jpg",
+        "caption": "rpanda, a photograph of a red panda sitting on leaf covered ground beside a tree stump, full body",
+        "processed_sha256": "c76846cdcc5f487edfcd22ea0fc336517d82ea420bf30cd0a09856f3f26fce47"
+      },
+      {
+        "file": "21_multiple.jpg",
+        "category": "multiple",
+        "source_title": "File:Calgary Zoo Red Panda 1.jpg",
+        "author": "User:Thivierr",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Calgary_Zoo_Red_Panda_1.jpg",
+        "caption": "rpanda, a photograph of two red pandas standing close together on the ground beside a tree",
+        "processed_sha256": "aa5151a0a062c7d733b21e18bb494f507a2a280a1ed00d533113d0e24ea54574"
+      },
+      {
+        "file": "22_multiple.jpg",
+        "category": "multiple",
+        "source_title": "File:Red Panda (43568591614).jpg",
+        "author": "Mathias Appel",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Red_Panda_(43568591614).jpg",
+        "caption": "rpanda, a photograph of two red pandas touching noses, close view, green background",
+        "processed_sha256": "9a6448dac2e74323691795eff61fcaa7abcc88f50772e25cef54fb74b2792794"
+      },
+      {
+        "file": "23_multiple.jpg",
+        "category": "multiple",
+        "source_title": "File:TWO FIREFOXES.jpg",
+        "author": "nick d from Chapel Hill, NC, Barbados",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:TWO_FIREFOXES.jpg",
+        "caption": "rpanda, a photograph of two red pandas resting on a wooden platform among tree trunks",
+        "processed_sha256": "078c35136a0def13a5c14abb6482b8adcc938820cd49f8d4218d824cbc44ef1f"
+      },
+      {
+        "file": "24_multiple.jpg",
+        "category": "multiple",
+        "source_title": "File:Two Red Panda Cubs in the Tree.jpg",
+        "author": "Sunuwargr",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Two_Red_Panda_Cubs_in_the_Tree.jpg",
+        "caption": "rpanda, a photograph of two red pandas perched on branches among green leaves",
+        "processed_sha256": "409c7ffa985a6bc62fe9eed7c898fb89fa4ebcb2e3543cc7b52e4b5226873aca"
+      }
+    ]
+  }
+}

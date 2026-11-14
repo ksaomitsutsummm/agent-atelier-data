@@ -1,0 +1,61 @@
+label,adherence,anatomy,quality,notes
+R01A,2,2,2,red panda resting on branch in bamboo forest; coherent
+R01B,2,1,1,front leg fuses into bamboo stump; blending artifacts
+R01C,2,2,2,small subject on mossy branch; clean and coherent
+R02A,2,2,2,natural occlusion by bamboo trunk; face clear
+R02B,2,2,2,peeking between stalks eating leaves; coherent
+R02C,2,2,2,full body standing and eating; coherent
+R03A,2,2,2,draped over branch resting; coherent
+R03B,2,2,2,sitting on branch facing camera; coherent
+R03C,2,2,2,lying on branch facing camera; coherent
+R04A,2,2,2,close draped pose on trunk holding twig; coherent
+R04B,2,1,2,front paws mitten-like gripping a twig
+R04C,2,1,2,body stretched long along the branch
+R05A,2,2,2,profile close-up with detailed fur; mouth slightly open
+R05B,2,2,2,frontal extreme close-up; symmetric but coherent
+R05C,1,2,2,full-body shot in tree fork; not a face close-up
+R06A,2,1,2,close-up; mouth line slightly unnatural
+R06B,2,1,2,close-up; cheek markings exaggerated and stripe-like
+R06C,2,2,2,three-quarter close-up with open mouth; coherent
+R07A,1,1,2,standing in snow facing camera; raised paw has claw-like digits
+R07B,1,2,2,resting on snowy branch; not walking
+R07C,2,1,2,walking in snow in profile; head elongated and flattened
+R08A,2,2,2,walking on snowy rocks toward camera; coherent
+R08B,2,2,2,on partly melted snow path; coherent
+R08C,1,2,2,draped over snowy tree branch; not walking
+R09A,2,2,2,watercolor by river; coherent
+R09B,1,2,2,sleeping on branch; river not evident
+R09C,2,2,2,painterly walking beside river; bulky but coherent
+R10A,2,2,1,photo of a painting with dark border edges visible
+R10B,1,2,2,climbing in branches; river not visible
+R10C,2,0,2,body severely elongated like a weasel; river and style ok
+R11A,1,2,2,on sand but no sunset or sea
+R11B,0,2,2,on a tree branch with foliage; no beach at all
+R11C,1,2,2,on sand beside log; no sunset or sea
+R12A,2,2,2,wide sunset beach; small but coherent subject
+R12B,2,1,2,sunset beach ok; one front leg and paw look odd
+R12C,2,2,2,sunset beach facing camera; coherent
+R13A,2,1,2,play-bow on lawn; hindquarters and tail muddled
+R13B,2,1,2,crouching by gravel path; hind paw splayed oddly
+R13C,2,1,2,crouching head-down; odd loop artifact at rear
+R14A,2,1,2,sitting in garden; tail grossly elongated along ground
+R14B,2,2,2,sitting facing camera; coherent
+R14C,2,2,2,sitting facing camera; coherent
+R15A,2,2,2,mountain lake scene; no structural breakdown
+R15B,2,2,2,mountain lake scene; no structural breakdown
+R15C,2,2,2,mountain lake scene; no structural breakdown
+R16A,2,2,2,turquoise lake and peaks; no structural breakdown
+R16B,2,2,2,turquoise lake and peaks; no structural breakdown
+R16C,2,2,2,turquoise lake and peaks; no structural breakdown
+R17A,2,2,2,lying on thick bamboo pole; coherent
+R17B,2,2,2,walking profile on grass in bamboo forest; teeth visible
+R17C,2,2,2,on horizontal branch in bamboo forest; coherent
+R18A,2,1,2,climbing between stalks; raised limb ambiguous
+R18B,2,2,2,face between stalks eating leaf; coherent
+R18C,1,2,1,sparse bamboo setting; faint watermark-like text bottom right
+R19A,1,2,2,curled resting on snowy branch; not walking
+R19B,2,1,2,walking in snow profile; head elongated
+R19C,1,1,2,standing in snow; raised paw digits odd
+R20A,2,2,2,walking on snowy path toward camera; coherent
+R20B,2,2,2,walking on snowy slope among shrubs; coherent
+R20C,2,2,2,walking on icy path rear view; coherent
